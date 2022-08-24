@@ -10,6 +10,10 @@ let getCate = (cate) => {
     data2 = data2.filter((a) => a.cate == cate);
     return JSON.parse(JSON.stringify(data2));;
 }
+
+// getting exercise by ID's
+// Example: data=getID(56);
+// return a detailed exercise
 let getID = (id) => {
     let data2 = JSON.parse(JSON.stringify(data));
     for (let i = 0; i < data2.length; i++) {

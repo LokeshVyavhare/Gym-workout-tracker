@@ -3,7 +3,7 @@ import { getData, getCate, getID } from './exercise_list_export.js';
 let append_all_list = (id) => {
     document.getElementById(id).innerHTML = '';
 
-    let all = ['Biceps', 'Chest',];
+    let all = ['Back', 'Biceps', 'Chest', 'Triceps'];
     all.forEach((i) => {
         let h2 = document.createElement('h2');
         h2.innerText = i;

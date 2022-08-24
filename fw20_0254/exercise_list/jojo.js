@@ -6,7 +6,7 @@ document.getElementById('add').addEventListener('click', async () => {
         img1: document.getElementById('img1').value,
         img2: document.getElementById('img2').value,
         desc: document.getElementById('desc').value,
-        cate: 'Biceps',
+        cate: 'Back',
         steps: document.getElementById('steps').value,
         tips: document.getElementById('tips').value,
     };

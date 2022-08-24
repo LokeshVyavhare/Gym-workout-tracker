@@ -539,6 +539,416 @@ let gym = [
         "steps": "Standing grab a dumbbell in each arm palms facing in.  Keeping your palms facing in (and not twisting your arms) curl the dumbbell up towards your opposite shoulder.  Bring the top of dumbbell up to and touching the shoulder.  Slowly with a controlled manner lower the dumbbell back to the starting position.",
         "tips": "",
         "id": 54
+    },
+    {
+        "title": "Barbell Incline Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1181_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1181_1.jpg",
+        "desc": "This version of a triceps extension uses gravity to increase the resistance of the exercise.",
+        "cate": "Biceps",
+        "steps": "Grasp a barbell with a close grip (4-6 inches apart).  Lie on an incline bench and hold the bar over your head.  Lower your arms in a slight arc so your forearms are touching your biceps.  Slowly return back to the starting position with the bar over your head.",
+        "tips": "",
+        "id": 55
+    },
+    {
+        "title": "Barbell Incline Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1181_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1181_0.jpg",
+        "desc": "This version of a triceps extension uses gravity to increase the resistance of the exercise.",
+        "cate": "Triceps",
+        "steps": "Grasp a barbell with a close grip (4-6 inches apart).  Lie on an incline bench and hold the bar over your head.  Lower your arms in a slight arc so your forearms are touching your biceps.  Slowly return back to the starting position with the bar over your head.",
+        "tips": "",
+        "id": 56
+    },
+    {
+        "title": "Bench Dips",
+        "img1": "https://www.gymwolf.com/images/exercises/1192_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1192_1.jpg",
+        "desc": "This exercise is one of the most basic and still one of the best for building the triceps (muscles on the back of the arm).",
+        "cate": "Triceps",
+        "steps": "Place two benches parallel to each other 3-4 feet apart.  Sit one bench and place your feet on the edge of the other bench so that your legs are suspended between the 2 benches.  Cross your feet for support.  Hold onto the bench with your hands for support and slowly lower body towards the floor by bending your elbows.  Pause and then return to starting position.",
+        "tips": "Do not go below a 90 degree angle as this can cause on your shoulders.",
+        "id": 57
+    },
+    {
+        "title": "Cable Incline Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1190_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1190_1.jpg",
+        "desc": "This exercise uses cables to isolate and work the triceps (muscles on the back of the arms).",
+        "cate": "Triceps",
+        "steps": "Place an incline bench facing away from a cable pulley.  Attach a short straight bar to the pulley and adjust the height so that your arms can extend fully.  Lie face up on the bench and grasp the bar with a narrow overhand grip.  Starting with your elbows bent overhead, slowly lower the bar towards your feet.  Pause at the bottom and then return to starting position.",
+        "tips": "",
+        "id": 58
+    },
+    {
+        "title": "Close Grip Smith Machine Bench Press",
+        "img1": "https://www.gymwolf.com/images/exercises/1161_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1161_0.jpg",
+        "desc": " This version of a Bench Press uses a close grip to isolate the triceps as well as working the chest.",
+        "cate": "Triceps",
+        "steps": "Place a flat bench in the middle of a Smith Machine.  Using a close grip (about 6 inches apart) unlatch the bar and lower it towards your chest.  Pause just before the bar hits your chest and raise the bar by extending your arms to the staring position.",
+        "tips": "",
+        "id": 59
+    },
+    {
+        "title": "Close Triceps Push-Up",
+        "img1": "https://www.gymwolf.com/images/exercises/1167_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1167_0.jpg",
+        "desc": " This version of the Pushup isolates the tricep (back of the arm) muscles.",
+        "cate": "Triceps",
+        "steps": "Kneel down on the floor or a mat, placing your hand thumbs together and raise your up on your toes.  Draw your abs in and keep your back and neck in a straight line.  Slowly lower your body towards the floor until you are nearly touching the floor.  In a controlled manner raise your body back up to the starting position.",
+        "tips": "",
+        "id": 60
+    },
+    {
+        "title": "Decline Close Grip Bench To Skull Crusher",
+        "img1": "https://www.gymwolf.com/images/exercises/1187_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1187_1.jpg",
+        "desc": "This exercise combines a close grip bench press with triceps extension.",
+        "cate": "Triceps",
+        "steps": "Lay with your back on a flat bench.  Grip a barbell with youre a close grip 8-12 inches apart.  Keeping your arms close to your sides lower the bar so it touches your chest, approximately an inch below your nipples.  Slowly return to starting position, concentrating on your triceps.  At the top of the exercise bend your arms down towards your head.  Raise the bar back up over your chest and repeat.",
+        "tips": "",
+        "id": 61
+    },
+    {
+        "title": "Decline EZ Bar Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1185_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1185_0.jpg",
+        "desc": " This exercise combines a decline bench and a curved bar to more efficiently work the triceps.",
+        "cate": "Triceps",
+        "steps": "Lay face up on a decline bench and grasp an EZ Bar (Curved Barbell).  Extend your arms so they are perpendicular to your chest, and keeping your elbows in one place, lower the bar toward your head.  Slowly return to the starting position.",
+        "tips": "",
+        "id": 62
+    },
+    {
+        "title": "Decline Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1186_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1186_1.jpg",
+        "desc": "This exercise combines a decline bench and dumbbells to target the tricpes.",
+        "cate": "Triceps",
+        "steps": "Lay face up on a decline bench with a dumbbell in each hand.  Extend your arms so they are perpendicular to your chest, and keeping your elbows in one place, lower your hands so the dumbbells are lowered near your head.  Slowly return to the starting position.",
+        "tips": "",
+        "id": 63
+    },
+    {
+        "title": "Incline Pushdown",
+        "img1": "https://www.gymwolf.com/images/exercises/1191_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1191_1.jpg",
+        "desc": " This exercise uses cables to isolate and work the triceps (muscles on the back of the arms).",
+        "cate": "Triceps",
+        "steps": "Place an incline bench facing away from a cable pulley.  Attach a short straight bar to the pulley and adjust the height so that your arms can extend fully.  Lie face up on the bench and grasp the bar with a narrow overhand grip.  Keeping your arms straight, slowly push the bar down towards your feet.  Pause at the bottom and then return to starting position.",
+        "tips": "Keep your elbows steady throughout this exercise.",
+        "id": 64
+    },
+    {
+        "title": "Incline Triceps Extensions",
+        "img1": "https://www.gymwolf.com/images/exercises/1150_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1150_1.jpg",
+        "desc": " This version of the triceps extension uses an incline bench.",
+        "cate": "Triceps",
+        "steps": "Grasp a dumbbell in each hand and lie against an incline bench, face up with your feet firmly planted on the floor.  Extend your arms over your shoulders with your palms facing each other.  Slowly lower the dumbbells behind your head by bending your elbows.  With a controlled motion raise your arms back up to the starting position.",
+        "tips": "",
+        "id": 65
+    },
+    {
+        "title": "Incline Triceps Extensions",
+        "img1": "https://www.gymwolf.com/images/exercises/1150_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1150_0.jpg",
+        "desc": " This version of the triceps extension uses an incline bench.",
+        "cate": "Triceps",
+        "steps": "Grasp a dumbbell in each hand and lie against an incline bench, face up with your feet firmly planted on the floor.  Extend your arms over your shoulders with your palms facing each other.  Slowly lower the dumbbells behind your head by bending your elbows.  With a controlled motion raise your arms back up to the starting position.",
+        "tips": "",
+        "id": 66
+    },
+    {
+        "title": "JM Press",
+        "img1": "https://www.gymwolf.com/images/exercises/1180_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1180_2.jpg",
+        "desc": " This exercise is named after the inventor, J.M. Blakley. This is and advanced exercise used by bodybuilders and power lifters to build explosive power in the triceps muscle (back of the arms).",
+        "cate": "Triceps",
+        "steps": "Lay on a flat bench with your head just at the end of the bench.  Grasp the bar with a medium overhand grip keeping your elbows close to your side, over your sternum (mid chest).  Lower the bar towards your sternum at a regular pace, then pause for a moment and with a controlled rapid pace, push the bar back to starting position.",
+        "tips": "The bar should move in straight line, up and down.",
+        "id": 67
+    },
+    {
+        "title": "Kneeling Concentration Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1179_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1179_1.jpg",
+        "desc": " Concentration exercises limit your range of movement to increase the effectiveness of the movement.",
+        "cate": "Triceps",
+        "steps": "Attach a stirrup handle to a cable pulley and adjust the pulley up high.  Kneeling on your left knee (with the left side of your body turned towards the machine), keep your right bent and the upper portion of your thigh parallel to the floor.  With your right elbow and upper arm pressed against your inner thigh just above your knee, pull the cable down towards the floor in a slight arcing motion.  Slowly to return to starting position.  Repeat and switch arms.",
+        "tips": "Keep all of your body still except the arm you are exercising.",
+        "id": 68
+    },
+    {
+        "title": "Kneeling Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1178_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1178_1.jpg",
+        "desc": "Kneeling allows you to isolate your triceps more effectively.",
+        "cate": "Triceps",
+        "steps": "Place a bench sideways in front of a high pulley machine.  Grasp a straight bar with an over head grip and kneel on the floor in front of the bench with your back straight and your head down.  With your elbows and forearms above your head, push the bar down in an arc so that your forearms are toughing the bench.",
+        "tips": "Keep your abs drawn in and your back straight as you perform this exercise.",
+        "id": 69
+    },
+    {
+        "title": "Low Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1177_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1177_0.jpg",
+        "desc": " This exercise is done while lying on a seated row station.",
+        "cate": "Triceps",
+        "steps": "Attach a rope to the cable pulley at of a seated row station.  Lie on the bench with your head facing the weight stack.  Grasp the rope with your palms facing each other and raise your arms over your chest, with your forearms parallel to the floor at a 90 degree angle.  Slowly extend your arms upward squeezing your triceps.  Return to starting position.",
+        "tips": "",
+        "id": 70
+    },
+    {
+        "title": "Lying Close Grip Triceps Press to Chin",
+        "img1": "https://www.gymwolf.com/images/exercises/1175_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1175_1.jpg",
+        "desc": " This exercise is a classic for building the triceps.",
+        "cate": "Triceps",
+        "steps": "Lie on a flat bench with your head at one end.  Grasp a bar with a close grip (about 6 inches apart).  Raise the bar straight up over your shoulders, keeping your elbows close in.  Slowly lower the bar in an arc towards your chin.  Return the bar to the starting position.",
+        "tips": "",
+        "id": 71
+    },
+    {
+        "title": "Lying Close-Grip Triceps Extension Behind the Head",
+        "img1": "https://www.gymwolf.com/images/exercises/1176_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1176_0.jpg",
+        "desc": " You can use a barbell or EZ (curl) bar to further concentrate the benefit to your triceps.",
+        "cate": "Triceps",
+        "steps": "Lie flat on a bench with your head at one end.  Grasp the bar with a grip about 8 inches apart and lower the bar behind your head.  Keeping the bar parallel with the floor, bend your arms down in an arc so the bar moves in a direction under your head.  Slowly return to starting position.",
+        "tips": "",
+        "id": 72
+    },
+    {
+        "title": "Lying Supine Two Arm Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1172_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1172_0.jpg",
+        "desc": " This a lying version of a Triceps Kickback.",
+        "cate": "Triceps",
+        "steps": "Lie flat on a bench with your head at one end.  Grasp a dumbbell in each hand and raise them at arms length over your shoulders.  Lower the dumbbells in an arc bending your elbows until your forearms are touching your biceps.  Slowly return to the starting position.",
+        "tips": "",
+        "id": 73
+    },
+    {
+        "title": "Lying Triceps Extension",
+        "img1": "https://www.gymwolf.com/images/exercises/1174_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1174_0.jpg",
+        "desc": "This exercise uses gravity to increase the resistance of the weight.",
+        "cate": "Triceps",
+        "steps": "Lay on a flat bench with your head at one end and your feet panted firmly on the floor.  Grasp a dumbbell with both hands (palms facing up) and raise it over your body.  Your arms will be pointed towards the ceiling.  While keeping your upper arms and elbows still, lower the dumbbell in an arc behind your head.  Slowly raise the dumbbell back to the starting position.",
+        "tips": "",
+        "id": 74
+    },
+    {
+        "title": "Back Extension on Stability Ball",
+        "img1": "https://www.gymwolf.com/images/exercises/1242_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1242_0.jpg",
+        "desc": "This exercise provides flexibility as it strengthens the muscles of the back and core.",
+        "cate": "Back",
+        "steps": "Lie prone on a Stability Ball with your toes firmly planted on the floor for balance  With your hands across your chest or at your ears, raise your chest off the ball so you are hyperextending your spine.  Slowly return your chest to the ball.",
+        "tips": "",
+        "id": 75
+    },
+    {
+        "title": "Back Flys With Resistance Bands",
+        "img1": "https://www.gymwolf.com/images/exercises/1319_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1319_0.jpg",
+        "desc": "Back Flyes will strengthen your upper back and improve your posture.",
+        "cate": "Back",
+        "steps": "Place a resistance band mid-waist high around a post or exercise machine. Keeping your feet together, you abs tight, and your knees slightly bent, stand far enough beack from the post that there is tension in the band.  From there, bring your arms back in a controlled manner until they are parallel to your sides. Slowly return your arms to the starting position.",
+        "tips": "Be careful not to use a band that's so strong you can't use good form.",
+        "id": 76
+    },
+    {
+        "title": "Barbell Rear Delt Row",
+        "img1": "https://www.gymwolf.com/images/exercises/1311_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1311_1.jpg",
+        "desc": "A good workout that tergets your middle back and posterior deltoids.",
+        "cate": "Back",
+        "steps": "Start with your feet a shoulder-width apart in front of the barbell. Bend over the bar until your back is almost parallel with the floor. Grasp the bar just wider than shoulder width apart. Lift the bar up so it's just above the ground and you're in a comfortable starting position.  Raise the bar up towards your chest using a clean controlled motion. Continue until the bar is almost touching your lower chest. Hold this for a moment then lower the bar to its original position.",
+        "tips": "Keep your head up and your back straight while doing this exercise.",
+        "id": 77
+    },
+    {
+        "title": "Barbell Shrugs",
+        "img1": "https://www.gymwolf.com/images/exercises/1309_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1309_1.jpg",
+        "desc": "This is an exercise for the traps.",
+        "cate": "Back",
+        "steps": "Grip a barbell with your palms facing towards your body about a shoulder-width apart. Stand up straight with your abs drawn in and your back straight. The barbell should be resting in front of your waist and your shoulders should be dropped as much as possible.  Slowly raise the barbell up by contracting your traps and raising your shoulders. Raise the bar as high as possible, then hold this top postion for a moment.  Slowly lower the bar back to the starting position",
+        "tips": "Try to squeeze your shoulder blades together at the top of the shrug. Concentrait on doing this exercise slowly, people often try rush through it.",
+        "id": 78
+    },
+    {
+        "title": "Barbell Upright Rows",
+        "img1": "https://www.gymwolf.com/images/exercises/1323_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1323_1.jpg",
+        "desc": "The barbell upright row is a standard upright row exercise that targets your traps and deltoids.",
+        "cate": "Back",
+        "steps": "Stand up straight with your feet shoulder width apart. Grip the barbell with an overhand grip (palms facing towards your body). Don't drop your shoulders. Even in this starting position the bar should be inline with the bottom of your hip bone.  Next, raise the bar towards your chin. Focus on contracting from your shoulders and traps. Raise the bar to just above your collar bone. Hold this position for a moment then slowly lower the bar back to its original position.",
+        "tips": "If possible, perform the barbell upright row using a rack. You'll be able to rest your barbell on this rack and pick it up from a more comfortable height when you start. This is safer than picking the barbell up from the floor.  Keeping your abs tight will help protect your back during the upright row.  Maintain good posture and keep your wrists straight. A shoulder width grip is best. A narrower grip will target the traps more, but it will make you more susceptible to a shoulder injury.",
+        "id": 79
+    },
+    {
+        "title": "Bent Arm Pullover",
+        "img1": "https://www.gymwolf.com/images/exercises/1295_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1295_1.jpg",
+        "desc": "The bent arm pullover targets your chest using an arcing motion.",
+        "cate": "Back",
+        "steps": "Lie flat on a bench with your head near or over the top of the bench. Hold the bar with a narrow grip so that your thumbs are able to touch. Your palms should be facing your feet.  Start with your elbows at your sides and your elbows bent. Rotate your shoulders so that the bar follows an arc over your head, down towards the floor. In the final position your arms should be next to your head.",
+        "tips": "Keep your back flat against the bench at all times. Your feet should also stay firmly on the ground.  Do not go beyond a comfortable range of motion.",
+        "id": 80
+    },
+    {
+        "title": "Body Row",
+        "img1": "https://www.gymwolf.com/images/exercises/1258_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1258_1.jpg",
+        "desc": "This is a good overall all exercise for the chest, back and core muscles. You should use a Smith Machine or stable tall weight rack for this exercise.",
+        "cate": "Back",
+        "steps": "Lie under a bar so that the bar is at mid chest level and your feet are firmly on the floor.  Draw your abs in and keep your back flat.  Using your arms, lift and row your body towards the bar.  Pause for a moment and with slow controlled movements lower your self back to starting position.",
+        "tips": "Keep your back flat throughout this exercise.",
+        "id": 81
+    },
+    {
+        "title": "Cable Shrugs",
+        "img1": "https://www.gymwolf.com/images/exercises/1327_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1327_0.jpg",
+        "desc": "The Cable Shrug is a variation of the standard shrug is done using a cable machine. A cable machine's weight is easier to adjust. This version is better suited to people doing drop sets or those who aren't sure about what weight they're comfortable with.",
+        "cate": "Back",
+        "steps": "Attach a flat shoulder width bar to the lowest cable pulley. Stand with your feet shoulder width apart. Keep your abs tight and a slight bend in your knees to protect your lower back. Starting with the bar at waist height, raise your shoulders toward your ears as if you're saying,\"I don't know.\" Hold briefly at the top of the contraction then lower in a slow and controlled manner.",
+        "tips": "Be careful not to roll your shoulders at the end of the movement as this increases your risk of injury. As with any shoulder exercise, do not do this if you are experiencing any shoulder pain.",
+        "id": 82
+    },
+    {
+        "title": "Cable Upright Rows",
+        "img1": "https://www.gymwolf.com/images/exercises/1336_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1336_1.jpg",
+        "desc": "Cable upright rows are a good exercise for strengthening your uppser back.",
+        "cate": "Back",
+        "steps": "Attach a straight bar to the pulley on the floor. Tighten your abs and stand with your feet shoulder width apart. Grasp the bar with an overhand grip. Your palms will be facing your body and be fairly close to your waist.  Next, raise the bar toward your chin. Pause at the top and return the bar to the starting position",
+        "tips": "Keep your body and your wrists straight. Your wrists should even be straight at the top part of this exercise.",
+        "id": 83
+    },
+    {
+        "title": "Climbers Chin Up",
+        "img1": "https://www.gymwolf.com/images/exercises/1254_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1254_1.jpg",
+        "desc": "This variation on the basic chin up is a great exercise for people who rock climb.",
+        "cate": "Back",
+        "steps": "Grasp a chin up bar with a slightly wider than shoulder width grip.  Keeping your body straight pull yourself up and to one side of the bar.  Lower your body back down to the starting position.  Raise yourself to the other side of the bar.",
+        "tips": "Alternate sides while performing this exercise. Allow your body to hang down completely.",
+        "id": 84
+    },
+    {
+        "title": "Close Grip Front Lat Pulldown",
+        "img1": "https://www.gymwolf.com/images/exercises/1250_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1250_0.jpg",
+        "desc": "This is a classic body builder exercise to build your lower Lats (back muscles).",
+        "cate": "Back",
+        "steps": "Sit at a Pull Down machine and place your feet under your knees.  Grasp the bar with a close overhand grip, about 8 inches apart and pull it straight down so it is even with your upper chest.  Hold for a moment and slowly return the bar back to starting position.",
+        "tips": "Keep your abs drawn in and do not swing your back during this exercise",
+        "id": 85
+    },
+    {
+        "title": "Deadlift",
+        "img1": "https://www.gymwolf.com/images/exercises/user/12.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/user/12.jpg",
+        "desc": "The deadlift is a weight training exercise where a loaded barbell is lifted off the ground from a stabilized, bent over position. It is one of the three canonical powerlifting exercises, along with the squat and bench press.",
+        "cate": "Back",
+        "steps": "1. Stand in front of a loaded barbell. 2. While keeping the back as straight as possible, bend your knees, bend forward and grasp the bar using a medium (shoulder width) overhand grip. This will be the starting position of the exercise. Tip: If it is difficult to hold on to the bar with this grip, alternate your grip or use wrist straps. 3. While holding the bar, start the lift by pushing with your legs while simultaneously getting your torso to the upright position as you breathe out. In the upright position, stick your chest out and contract the back by bringing the shoulder blades back. Think of how the soldiers in the military look when they are in standing in attention. 4. Go back to the starting position by bending at the knees while simultaneously leaning the torso forward at the waist while keeping the back straight. When the weights on the bar touch the floor you are back at the starting position and ready to perform another repetition. 5. Perform the amount of repetitions prescribed in the program.",
+        "tips": "Don’t arch your back (or roll it in the other direction). Keep your abs tight the ENTIRE TIME, and keep your back straight. Keep the bar as close to you as possible – almost roll it up your shins until you get to your knees, and then almost roll it up your thighs until you’re upright. As you bring it past your knees, don’t think about pulling up with your back, thrust in with your hips. Keep your head up and chest out as you lift - this will help you keep your back aligned properly. As you bring the weight up, you want your legs to straighten out simultaneously as your hips come in completely - form a straight line at the same time with your hips, knees and feet.",
+        "id": 86
+    },
+    {
+        "title": "Dumbbell Bent Arm Pullover",
+        "img1": "https://www.gymwolf.com/images/exercises/1294_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1294_1.jpg",
+        "desc": "A variation on the standard barbell bent arm pullover, using only a single dumbbell.",
+        "cate": "Back",
+        "steps": "Lie on a flat bench with your head near or over the end of the bench. Hold the dumbbell above your chest by griping the plates of one side. Keep your elbows slightly bent.  Lower the dumbbell back behind your head, down towards the floor. You should feel the stretch in your chest and triceps. Continue until your arms are next to your head. Then reverse the exercise and return to the starting position.",
+        "tips": "Make sure you feel the stretch of the dumbbell bent arm pullover.",
+        "id": 87
+    },
+    {
+        "title": "Dumbbell Shrugs",
+        "img1": "https://www.gymwolf.com/images/exercises/1331_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1331_1.jpg",
+        "desc": "This shrugs exercise is great for targeting the traps using only a pair of dumbbells.",
+        "cate": "Back",
+        "steps": "Stand with your feet roughly shoulder width apart. Bend your knees slightly to take any pressure of them. Grip a dumbbell in each hand with your palms facing in towards your body. Lower your shoulders as much as possible. Keep your arms straight and slowly raise your shoulders up towards your ears.  Hold this position for a moment then slowly lower the dumbbells to their original position.",
+        "tips": "It may be tempting to use a jerking, swinging motion with this exercise. Avoid this temptation and focus on doing this exercise slowly. This will make the shrugs far more effective.",
+        "id": 88
+    },
+    {
+        "title": "Dumbbell Upright Row",
+        "img1": "https://www.gymwolf.com/images/exercises/1321_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1321_1.jpg",
+        "desc": "The dumbbell upright row targets your upper back, deltoids and biceps using only a pair of dumbbells.",
+        "cate": "Back",
+        "steps": "Stand up straight with your feet shoulder width apart and abs tight to support your back. Grasp a dumbbell in each hand, with your palms facing in towards your body and your elbows facing out, away from your sides.  Slowly raise the dumbbell to about chin level, but no so far that it feels uncomfortable. Hold the top position for a second then slowly lower the dumbbells to the lower position.",
+        "tips": "Your traps will take most of the work for this exercise. Be careful not to overtrain them by also using them in other similar exercises.",
+        "id": 89
+    },
+    {
+        "title": "Front and Back Neck Isometric",
+        "img1": "https://www.gymwolf.com/images/exercises/1335_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1335_0.jpg",
+        "desc": "The front and back neck isometric exercises are great for your neck muscles. The primary advantage to a strong neck is that it helps align the rest of your body. Neck exercises are often overlooked by gym goers, so it's important to create awareness around simple neck isometric exercises like these.",
+        "cate": "Back",
+        "steps": "Start by standing or sitting in a neutral position. Place both hands firmly on your forehead. Contract your neck as you slowly start to push against your hands. Make sure that you are pushing your forehead towards your hands and not the other way round. Keep your hands as still as possible in order to create the isometric resistance. Keep your head looking forward at all times.  Next, do the back neck isometric exercise by placing your hands firmly on the back of your head. Your hands should be roughly in line with the top of your ears.",
+        "tips": "Don't let your head move while doing the front and back neck isometric.",
+        "id": 90
+    },
+    {
+        "title": "Gironda Sternum Chins",
+        "img1": "https://www.gymwolf.com/images/exercises/1257_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1257_1.jpg",
+        "desc": "This is a variation of the basic Chin Up that focus more on the lats. Your goal is to touch the bar at the sternum (mid chest).",
+        "cate": "Back",
+        "steps": "Grasp the pull up bar with a shoulder width underhand grip.  Hang from the bar with your arms fully extended.  Pulling yourself towards the bar lean your head back as far as you can and arch your spine.  Continuing pulling so that your collarbone passes the bar and you are able to touch your sternum to the bar.  Slowly lower yourself back to starting position.",
+        "tips": "Your hips and legs should be at a 45 degree angle to the floor as you near the bar.",
+        "id": 91
+    },
+    {
+        "title": "Good Mornings",
+        "img1": "https://www.gymwolf.com/images/exercises/1245_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1245_1.jpg",
+        "desc": "Good Mornings are an advanced exercise that work your lower back while incorporating the hamstrings.",
+        "cate": "Back",
+        "steps": "Start with a barbell just behind your shoulders. You should be standing up straight with your abs tensed to support your back.  Next, start leaning forward. Lowering your torso so that it'll eventually be parallel with the ground. To keep balance you'll push your hips back and bend your knees slightly. Try bend your knees as little as possible.  Stop when your body is parallel with the ground. Make sure you're still looking ahead of you and your back is as straight as possible. Hold this bottom position for a second then slowly raise yourself back to the starting position.",
+        "tips": "Start with the barbell on a squat rack. This way you can easily get the barbell into the starting position.",
+        "id": 92
+    },
+    {
+        "title": "Hyperextensions",
+        "img1": "https://www.gymwolf.com/images/exercises/1243_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1243_1.jpg",
+        "desc": "This exercise not only adds strength but also flexibility to the back and core muscles.",
+        "cate": "Back",
+        "steps": "Adjust the hyperextension bench so that your ankles are tucked under the footpads and your thighs are flat across the top pad.  With your arms folded across your chest and your back straight, slowly bend at the waist towards the floor, keeping your back flat.  Slowly return to the starting position.",
+        "tips": "Do not arch your back at any time during this exercise.",
+        "id": 93
+    },
+    {
+        "title": "Narrow Parallel Grip Chin-ups",
+        "img1": "https://www.gymwolf.com/images/exercises/1255_0.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1255_1.jpg",
+        "desc": "This is a more advanced version of the basic Chin Up. The closer grip provides more development on the shoulders.",
+        "cate": "Back",
+        "steps": "Grasp the bar with an supinated (overhand) grip so that your palms are facing.  Let your body hang from the bar with your arms straight.  Slowly pull yourself up so that your chin is higher than the bar.  With a controlled movement lower yourself to the starting position.",
+        "tips": "Your legs should stay in line with your torso throughout this exercise.",
+        "id": 94
+    },
+    {
+        "title": "Rear Deltoid Row",
+        "img1": "https://www.gymwolf.com/images/exercises/1315_1.jpg",
+        "img2": "https://www.gymwolf.com/images/exercises/1315_0.jpg",
+        "desc": " Rear Deltoid Rows are a simple, yet effective exercise for targeting your lats and rear deltoids.",
+        "cate": "Back",
+        "steps": "Place your right foot on the floor with you left knee resting on a bench. Support your body weight with your left arm. With a flat back, pick up the dumbbell in your right hand.  Leading with your elbow and with your arm close to your chest, raise your arm. Pause at the top of the exercise then lower in a controlled manner.  Switch sides and repeat.",
+        "tips": "Keep your back flat and your head in alignment with your body during this exercise.",
+        "id": 95
     }
 ];
 
