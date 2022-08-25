@@ -179,6 +179,13 @@ hr{
     margin: 20px;
 }
 
+.trainer_price_cards{
+    background-color: #e6e7ea;
+    padding: 50px 0 80px 0;
+    margin: 0 0 50px 0;
+}
+
+
 .trainer_price_row{
     display: flex;
 }
@@ -189,28 +196,149 @@ margin-left: -15px;
 }
 
 .trainer_price_col{
-    width: 33.33%;
+    width: 33%;
+    padding: 0 15px;
 }
 
 
-.trainer_card_layout{
+.trainer_price_row .trainer_price_col .trainer_card_layout{
+    margin: 0 0 20px 0;
+    background-color: #fff; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding-bottom: 10px;
+}
+
+.col1:hover .go_to_trainers1, .col3:hover .go_to_trainers3{
+    color: white;
+    background-color:#2ECC71
+}
+
+
+
+.trainer_card_top{
     margin: 0 0 20px 0;
     background-color: #f6f6f6;
 }
 
-.trainer_card_top{
-    margin: 0 0 50px 0;
-}
-
 .trainer_card_type{
+    margin: 0 0 50px 0;
     padding-top: 40px;
-    position: relative;
-   
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    
 }
 
 .trainer_card_price{
     padding: 0 0 20px;
 }
+
+.trainer_card_price .price {
+    display: block;
+}
+
+.trainer_card_price .price .sign{
+    display: inline-block;
+    font-size: 28px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.trainer_card_price .price .currency{
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 60px;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.trainer_card_price .price .month{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+    color: #414141;
+}
+.trainer_card_mid{
+    background-color: #fff;
+}
+
+
+ ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.trainer_card_mid ul li{
+    font-size: 18px;
+    padding: 15px 20px;
+    color: #a7a7a7;
+}
+.trainer_card_mid ul li span{
+    color: #414141;
+}
+
+
+.trainer_card_mid ul li .fa{
+    padding: 0 10px;
+    display: inline-block;
+    color: #a7a7a7;
+}
+
+.trainer_card_bottom{
+    margin: 20px 0 32px;
+
+}
+
+.go_to_trainers1,.go_to_trainers2,.go_to_trainers3{
+    border: 1px solid #29b062;
+    color: #2ECC71;
+    display: inline-block;
+    font-size: 18px;
+    outline: medium none;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+.col1 .trainer_card_type,.col3 .trainer_card_type{
+    color: #333;
+    background-color: #fff;
+}
+
+.col1 .type1,.col3 .type3{
+    color: #414141;
+    background-color: #cbcbcb;
+}
+
+.col1:hover .type1, .col3:hover .type3 {
+    color: white;
+    background-color: #2ECC71;
+}
+
+
+.go_to_trainers2{
+    color: white;
+    background-color:#2ECC71
+}
+
+
+.col2 .trainer_card_type{
+    color: white;
+    background-color: #2ECC71;
+}
+
+
+.trainer_monthly_price{
+    margin-bottom: 20px;
+}
+
+
+
 
 
 
