@@ -7,7 +7,7 @@ import { navbar, footer } from '../../fw20_1110/components/navbar&footer.js'
 document.querySelector('header').innerHTML = navbar2();
 document.getElementById('comm_exr_tabs').innerHTML = exer_tabs();
 grid_append('exer_9cate_grid');
-document.querySelector('footer').innerHTML = footer();
+document.querySelector('footer .footerv').innerHTML = footer();
 
 let exer_cate = JSON.parse(localStorage.getItem('cate_exer'));
 

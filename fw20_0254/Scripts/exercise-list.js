@@ -11,7 +11,7 @@ grid_append('exer_9cate_grid');
 
 
 
-document.querySelector('footer').innerHTML = footer();
+document.querySelector('footer .footerv').innerHTML = footer();
 
 append_all_list('exer_list');
 

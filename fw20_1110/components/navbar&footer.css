@@ -110,9 +110,9 @@ footer .row {
     margin-left: -15px;
 }
 
-/* footer .col-sm-2 {
-    width: 16.666666666666664%; 
-} */
+footer .col-sm-2 {
+    /* width: 16.666666666666664%; */
+}
 
 footer .footer .lead {
     margin-bottom: 20px;
