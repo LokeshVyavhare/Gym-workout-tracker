@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/profilePage.css">
+</head>
+<body>
+    <div id="container">
+        <div class="upper-body">
+            <div><a href="#">General</a></div>
+            <div><a href="#">Body measurements</a></div>
+            <div><a href="#">Privacy</a></div>
+        </div>
+        <div id="general-container">
+            <div>
+                <h2>General</h2>
+                <a href="#">Delete Profile</a>
+            </div>
+            <div>
+                <form action="#">
+                    <p><label>Email:</label></p>
+                    <p><label >Your name: <input id="name1" type="text" size="30"></label></p>
+                    <div class="form-group">
+                        <label for="gender" class="col-sm-3 control-label">Gender:</label> 
+                        <div class="col-sm-9">
+                            <label for="gender_male" class="radio">
+                                <input id="gender_male" type="radio" name="gender" value="male">
+                                Male					
+                            </label> 
+                            
+                            
+                            <label for="gender_female" class="radio">
+                                <input id="gender_female" type="radio" name="gender" value="female">
+                                Female
+                            </label> 
+                        </div>
+                        </div>
+                    <label for="b-day b-month">Birth date:</label>
+                    <select name="birth-data" id="b-month">
+                        <option>-Month-</option>
+                    </select>
+                    <select name="birth-data" id="b-day">
+                        <option>-Day-</option>
+                    </select>
+                    <select name="birth-data" id="b-year">
+                        <option>-Year-</option>
+                    </select>
+                    
+                    <p><label >Password: <input id="password" type="password" size="30"></label></p>
+                    <p><label >Confirmed Password: <input id="name2" type="password" size="30"></label></p>
+
+                    <label for="units">Preferred units</label>
+                    <select name="units" id="units">
+                        <option> Metric(kgs)</option>
+                        <option>Imperial (lbs)</option>
+                    </select>
+                    <p><label >My Gym: <input id="name3" type="text" size="30"></label></p>
+                    <div class="form-group">
+						<label for="user-description" class="col-sm-3 control-label">Your description for profile page:</label>
+						<div class="col-sm-9">
+							<textarea id="user-description" name="user-description" class="form-control" rows="2" style="resize: vertical;"></textarea>
+						</div>
+
+                    <div>
+                        <h4>Profile URL</h4>
+                        <div>
+                            <p>You can choose a personal URL for your profile page:</p>
+                            <div class="input-group">
+								<span class="input-group-addon">www.gymwolf.com/</span>
+								<input id="gwun" class="form-control" type="text" name="username" value="#">
+							</div>
+                        </div>
+                    </div>
+					</div>
+
+                    <div>
+                        <button>Save</button>
+                    </div>
+                </form>
+
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- <form>
+                    <label for="name">Enter username (upper and lowercase letters): </label>
+                    <input type="text" name="name" id="name" required pattern="[a-zA-Z]+">
+                    <button>Submit</button>
+                  </form> -->
+<!-- <script>
+    const nameInput = document.querySelector('#name');
+
+nameInput.addEventListener('input', () => {
+  nameInput.setCustomValidity('');
+  nameInput.checkValidity();
+});
+
+nameInput.addEventListener('invalid', () => {
+  if (nameInput.value === '') {
+    nameInput.setCustomValidity('Enter your username!');
+  } else {
+    nameInput.setCustomValidity('Usernames can only contain upper and lowercase letters. Try again!');
+  }
+});
+
+</script> -->
+<script src="./Scripts/profiePage.js"></script>
+
+<script>
+const jaJP = new Intl.Locale("jp");
+console.log(jaJP.timeZones); // logs ["Asia/Tokyo"]
+
+   
+</script>

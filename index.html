@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HomePage Not signed</title>
+  <link rel="stylesheet" href="./fw20_1110/CSS/stylesheet.css" />
+
+  <!-- css for components which are imported -->
+  <!-- <link rel="stylesheet" href="./fw20_1110/components/navbar&footer.css"> -->
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="landing">
+    <!-- ******  Video section ***************-->
+    <div id="videosection">
+      <video autoplay loop muted plays-inline class="video">
+        <source src="./fw20_1110/video/Gymwolf_video.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <!--**************** NavBar Section      ******************** -->
+    <div id="navbar">
+
+    </div>
+    <!-- ******* Heading-1 ******************** -->
+    <div class="content">
+      <h1>A better way to track your workouts</h1>
+      <div id="buttonhome" class="display">
+        <button><a href="">Start Free</a></button>
+      </div>
+      <div id="divinput" class="notdisplay">
+        <input type="text" placeholder="Entre your Email">
+        <button>Register</button><br>
+        <button>| Sign In with Facebook</button>
+      </div>
+
+      <div>
+
+      </div>
+
+    </div>
+  </div>
+  <!-- **********************--MId-Section--**************************************** -->
+
+  <div class="mid-section">
+    <h1>Online personal trainer</h1>
+
+    <p>
+      Gymwolf has certified personal trainers that provide you with customised
+      workout plans depending on your goals. Our trainers track your progress,
+      coach and motivate you daily through our web and smartphone app.
+    </p>
+    <button><a href="">Learn more</a></button>
+  </div>
+
+  <!-- *************** -Mid-Section--2************ -->
+  <div class="mid-section-2">
+    <div class="mid-section-part-1">
+      <div>
+        <h1>Features</h1>
+
+        <p>
+          Gymwolf is a workout tracking tool. Add workouts, create your own
+          customized workout plans or find suitable plan from other users.
+          Accomplish your goals with motivation from personal trainer and
+          committed training.
+        </p>
+        <button><a href="">Take tour</a></button>
+      </div>
+      <div>
+        <img src="https://www.gymwolf.com/img/landing/features-img.png" alt="" />
+      </div>
+    </div>
+
+    <div class="mid-section-part-2">
+      <div>
+        <img src="https://www.gymwolf.com/img/landing/progress-img.png" alt="" />
+      </div>
+      <div>
+        <h1>See your progress</h1>
+
+        <p>
+          Gymwolf provides different graphs that help you track your progress.
+          There are graphs for gym workouts, cardio workouts and bodyweight.
+          The graphs are highly customizable: you can select the date range,
+          exercise and group the results by month, week or single workout.
+        </p>
+        <button><a href="">Take tour</a></button>
+      </div>
+    </div>
+
+    <div class="mid-section-part-1">
+      <div>
+        <h1>Database with 300+ exercises</h1>
+
+        <p>
+          Gymwolf has a database with over 300 exercises. The exercises come
+          with detailed descriptions, tips and step-by-step images. If you
+          don't find a exercise from our database, then you can also add your
+          own exercises.
+        </p>
+        <button><a href="">Take tour</a></button>
+      </div>
+      <div>
+        <img src="https://www.gymwolf.com/img/landing/database-img.png" alt="" />
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-container">
+    <div class="footer-lifted">
+      <p class="footer-counter">
+        <span class="label label-default">1</span><span class="label label-default">1</span><span
+          class="label label-default">4</span><span class="label label-default">3</span><span
+          class="label label-default">9</span><span class="label label-default">1</span><span
+          class="label label-default">7</span><span class="label label-default">8</span><span
+          class="label label-default">5</span><span class="label label-default">5</span> <span>kg</span>
+      </p>
+      <p class="lead">LIFTED USING GYMWOLF</p>
+    </div>
+    <!-- ******************* ->Footer Section ->************************************** -->
+
+  </div>
+  <footer>
+    <div class="footerv">
+
+
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
+<script type="module">
+
+  import { navbar, footer } from './fw20_1110/components/navbar&footer.js'
+
+  document.getElementById("navbar").innerHTML = navbar()
+  document.querySelector(".footerv").innerHTML = footer()
+
+  document.getElementById("register").addEventListener("click", myregis)
+
+  function myregis() {
+    document.getElementById("buttonhome").setAttribute("class", "notdisplay")
+    document.getElementById("divinput").setAttribute("class", "display")
+  }
+
+// console.log(navbar,footer)
+
+
+</script>
