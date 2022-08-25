@@ -6,7 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HomePage Not signed</title>
-  <link rel="stylesheet" href="./fw20_1110/" />
+  <!-- <link rel="stylesheet" href="./fw20_1110/CSS/stylesheet.css" /> -->
+
+  <!-- css for components which are imported -->
+  <link rel="stylesheet" href="./fw20_1110/components/navbar&footer.css">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -14,7 +20,7 @@
     <!-- ******  Video section ***************-->
     <div id="videosection">
       <video autoplay loop muted plays-inline class="video">
-        <source src="../video/Gymwolf_video.mp4" type="video/mp4" />
+        <source src="./fw20_1110/video/Gymwolf_video.mp4" type="video/mp4" />
       </video>
     </div>
 
@@ -121,10 +127,12 @@
     <!-- ******************* ->Footer Section ->************************************** -->
 
   </div>
-  <div class="footerv">
+  <footer>
+    <div class="footerv">
 
 
-  </div>
+    </div>
+  </footer>
 </body>
 
 </html>
@@ -132,7 +140,7 @@
 
 <script type="module">
 
-  import { navbar, footer } from "../components/navbar&footer.js"
+  import { navbar, footer } from './fw20_1110/components/navbar&footer.js'
 
   document.getElementById("navbar").innerHTML = navbar()
   document.querySelector(".footerv").innerHTML = footer()

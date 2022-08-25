@@ -1,0 +1,156 @@
+header,
+footer * {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+
+    width: 100%;
+    height: 95px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+    padding: 20px 8%;
+    display: flex;
+    background-color: #0000003f;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#srch_lv {
+    vertical-align: middle;
+    filter: invert(100%);
+    width: 25px;
+}
+
+#srch_lv:hover {
+    width: 26px;
+}
+
+
+.display {
+    display: block;
+
+}
+
+.notdisplay {
+    display: none;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+
+}
+
+nav ul li a:hover {
+    color: #26a9e1;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+
+
+footer .label-default {
+    margin-right: 5px;
+    padding: 6px 15px;
+    font-size: 36px;
+    background-color: #fff;
+}
+
+footer .footer-lifted {
+    padding-top: 112px;
+    padding-bottom: 95px;
+    background-color: #e6e7ea;
+    text-align: center;
+}
+
+footer .footer-container {
+    padding-top: 60px;
+    font-size: 18px;
+}
+
+footer .container {
+    width: 1170px;
+
+    /* grid-template-rows: repeat(0,1fr); */
+}
+
+footer .row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /* border: 1px solid rebeccapurple; */
+
+}
+
+footer .lead {
+    width: auto;
+}
+
+footer .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer .row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+footer .col-sm-2 {
+    /* width: 16.666666666666664%; */
+}
+
+footer .footer .lead {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+footer .copyright {
+    width: auto;
+}
+
+footer .footerv {
+    padding-top: 60px;
+    font-size: 18px;
+
+    /* border: 1px solid rebeccapurple; */
+    padding-bottom: 50px;
+    background-color: #26a9e1;
+}
+
+footer .footerv a,
+footer .footerv a:visited,
+footer .footerv a:hover,
+footer .footerv a:focus {
+    color: #ffffff;
+}
+
+footer .footerv a {
+    text-decoration: none;
+}
+
+footer .copyright {
+    color: #ffffff;
+}
