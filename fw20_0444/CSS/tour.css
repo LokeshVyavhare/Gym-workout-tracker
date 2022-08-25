@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Open Sans");
+body{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin: 0px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+h1,h2,h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 36px;
+}
+h2{
+    font-size: 30px;
+}
+h1,h2,h3,h4,h5,h5{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+}
+
+.tour_container{
+    margin-top: 20px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.tour_header{
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.tour_demo_left{
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+.tour_text{
+    
+    margin: 0 0 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 1.4;
+    margin-top: 20px;
+    
+}
+
+.tour_demo_left .tour_text_area{
+    padding-right: 30px;
+}
+
+.tour_demo_left .tour_img{
+    float: left;
+    margin: 0 50px 50px 0;
+    
+}
+
+.tour_demo_left h2, .demo_right h2 {
+    padding-top: 30px;
+}
+
+.tour_demo_left{
+    display: flex;
+}
+
+.tour_demo_left .tour_bottom_images {
+    float: right;
+}
+
+.tour_demo_left .tour_bottom_images img{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.img_mimic{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    padding: 4px;
+    line-height: 1.428571429;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.tour_btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+}
+.tour_simple_btn{
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+@media(min-width:768px){
+    .tour_container{
+        width: 750px;
+    }
+    .tour_text{
+        font-size: 21px;
+    }
+}
+
+@media(min-width:990px){
+
+    .tour_container{
+        width: 970px;
+    }
+}
+
+@media(min-width:1200px){
+    .tour_container{
+        width: 1170px;
+    }
+}
+
+
+
+
