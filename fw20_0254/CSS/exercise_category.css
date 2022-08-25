@@ -1,0 +1,48 @@
+#exer_container {
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+#exer_container>div:first-child {
+    width: 70%;
+}
+
+
+
+#exer_container>div:last-child {
+    padding: 20px 25px;
+    width: 300px;
+    height: fit-content;
+}
+
+#exer_9cate_grid {
+    width: 100%;
+    display: grid;
+    margin: auto;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    grid-template-columns: 1fr;
+    gap: 35px;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+#all_exer_page {
+    text-align: left;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    min-width: fit-content;
+    margin: 15px 0;
+    padding: 10px 14px;
+    background-color: #fff;
+    border: 0.2px solid rgb(204, 204, 204);
+}
+
+#all_exer_page:hover {
+    background-color: rgb(245, 245, 245);
+}
