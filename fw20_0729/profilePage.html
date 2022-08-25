@@ -57,6 +57,13 @@
                         <option> Metric(kgs)</option>
                         <option>Imperial (lbs)</option>
                     </select>
+
+                    <label for="timezones">Timezone</label>
+                    <select name="timezones" id="timezones">
+                    </select>
+
+
+                    
                     <p><label >My Gym: <input id="name3" type="text" size="30"></label></p>
                     <div class="form-group">
 						<label for="user-description" class="col-sm-3 control-label">Your description for profile page:</label>
@@ -113,8 +120,5 @@ nameInput.addEventListener('invalid', () => {
 <script src="./Scripts/profiePage.js"></script>
 
 <script>
-const jaJP = new Intl.Locale("jp");
-console.log(jaJP.timeZones); // logs ["Asia/Tokyo"]
-
-   
+  
 </script>
