@@ -1,16 +1,16 @@
-function navbar(){
-    return `  <nav>
+function navbar() {
+  return `  <nav>
     <img src="https://www.gymwolf.com/img/gymwolf.png" class="logo" />
 
     <ul>
       <li id="register"><a href="#">Register</a></li>
       <li id="login"><a href="#">Sign In</a></li>
-      <li><a href="">🔍</a></li>
+      <li><a href=""><img src="https://img.icons8.com/ios/344/search--v1.png" id='srch_lv'></a></li>
     </ul>
   </nav>`
 }
 
-function footer(){
+function footer() {
   return `<div class="container">
   <div class="row">
     <div class="col-xs-12 col-sm-2">
@@ -88,4 +88,4 @@ function footer(){
 }
 
 
-export {navbar,footer} 
+export { navbar, footer } 
