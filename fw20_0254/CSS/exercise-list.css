@@ -4,6 +4,12 @@
     font-family: Helvetica, sans-serif;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
 #banner_exercise>div {
     background-image: url('https://www.gymwolf.com/img/exercises.jpg');
     width: 101%;
