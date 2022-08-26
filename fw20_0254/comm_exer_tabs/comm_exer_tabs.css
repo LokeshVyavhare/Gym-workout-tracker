@@ -1,5 +1,6 @@
 .new_workout_gr_tab {
     border: 1px solid #20aa59;
+    box-sizing: border-box;
     background-color: #27df74;
     color: #fff;
     font-family: "Open Sans", sans-serif;
@@ -57,6 +58,7 @@
     vertical-align: middle;
     box-sizing: border-box;
     font-size: 14px;
+    text-align: center;
     height: 100%;
     padding: 15px 20px;
 }
@@ -86,4 +88,25 @@
     border-bottom: 1px solid rgb(214, 214, 214);
     font-size: 36px;
     padding-left: 5px;
+}
+
+@media screen and (max-width:650px) and (min-width:200px) {
+    #comm_exr_tabs {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #comm_exr_tabs>div {
+        width: 100%;
+    }
+
+    .new_workout_gr_tab {
+        width: 100%;
+    }
+
+    #comm_exr_tabs>div:last-child {
+        justify-content: space-between;
+        width: 100%;
+    }
+
 }
