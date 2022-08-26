@@ -46,3 +46,25 @@
 #all_exer_page:hover {
     background-color: rgb(245, 245, 245);
 }
+
+@media screen and (max-width:650px) and (min-width:200px) {
+    #exer_container {
+        flex-direction: column;
+    }
+
+    #exer_9cate_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #exer_container>div:first-child {
+        width: 99%;
+    }
+
+    #exer_container>div:last-child {
+        width: 95%;
+        padding: 0;
+        margin: auto;
+    }
+
+}

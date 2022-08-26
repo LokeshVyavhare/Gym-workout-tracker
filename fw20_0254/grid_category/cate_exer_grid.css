@@ -41,3 +41,11 @@
     background-color: #0066beb7;
     padding: 20px;
 }
+
+
+@media screen and (max-width:650px) and (min-width:200px) {
+    #exer_9cate_grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+}
