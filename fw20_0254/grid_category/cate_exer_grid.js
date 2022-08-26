@@ -20,14 +20,14 @@ let grid_append = (id) => {
 <div><a id='Back' href="./exercise_category.html">
     <p id='Back'>Back</p>
 </a></div>
-<div><a id='Shoulders' href="./exercise_category.html">
-    <p id='Shoulders'>Shoulders</p>
+<div><a id='Shoulder' href="./exercise_category.html">
+    <p id='Shoulder'>Shoulders</p>
 </a></div>
 <div><a  id='Legs' href="./exercise_category.html">
     <p id='Legs'>Legs</p>
 </a></div>
-<div><a id='Abdomonal' href="./exercise_category.html">
-    <p id='Abdomonal'>Abdomonal</p>
+<div><a id='Abdominal' href="./exercise_category.html">
+    <p id='Abdominal'>Abdominal</p>
 </a></div>
 <div><a id='Combined' href="./exercise_category.html">
     <p id='Combined'>Combined</p>

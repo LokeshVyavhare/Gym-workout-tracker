@@ -10,6 +10,7 @@ body{
     margin: 0px;
     line-height: 1.5;
     font-size: 14px;
+    color: #333;
 }
 
 p {
@@ -344,6 +345,7 @@ margin-left: -15px;
 
 /* responsiveness */
 @media(min-width: 768px){
+    
     #trainer_header{
         background-image: url("https://www.gymwolf.com/img/trainer-bg.jpg");
         background-position: right center;

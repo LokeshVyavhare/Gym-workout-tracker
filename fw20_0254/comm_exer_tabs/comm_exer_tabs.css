@@ -1,0 +1,89 @@
+.new_workout_gr_tab {
+    border: 1px solid #20aa59;
+    background-color: #27df74;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.new_workout_gr_tab:hover {
+    background-color: #20aa59;
+}
+
+.btn_lr {
+
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#comm_exr_tabs {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin: auto;
+    border-bottom: 1px solid #c0bfbf;
+}
+
+#comm_exr_tabs>div:nth-child(2) {
+    display: flex;
+    width: fit-content;
+
+}
+
+.exr_tab {
+    margin: 0 5px;
+}
+
+.exr_tab a {
+    color: #428bca;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 100%;
+    padding: 15px 20px;
+}
+
+.active_exr_tab {
+    border: 1px solid #c0bfbf;
+    background-color: #fff;
+
+    position: relative;
+    bottom: -1px;
+    border-bottom: 1px solid #fff;
+}
+
+.active_exr_tab a {
+    color: #000;
+}
+
+.exr_tab a:hover {
+    background-color: rgb(241, 241, 241);
+    color: #305c83;
+    border-radius: 5px 5px 0 0;
+}
+
+#exer_cont_header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+    font-size: 36px;
+    padding-left: 5px;
+}
