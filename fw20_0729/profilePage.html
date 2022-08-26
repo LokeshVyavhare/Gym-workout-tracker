@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/profilePage.css">
+    <link rel="stylesheet" href="../fw20_1110/components/navbar&footer.css">
+    <link rel="stylesheet" href="../Umer_Ahmad_fw20_0026/CSS/nav.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="container">
+
+    </header>
+    <section>
+    <div id="body-container">
+        <div class="upper-body">
+            <div><a href="#">General</a></div>
+            <div><a href="#">Body measurements</a></div>
+            <div><a href="#">Privacy</a></div>
+        </div>
+        <div id="general-container">
+            <div>
+                <h2>General</h2>
+                <a href="#">Delete Profile</a>
+            </div>
+            <div>
+                <form style="height:fit-content ;">
+                    <p><label>Email:</label></p>
+                    <p><label >Your name: <input id="name1" type="text" size="30"></label></p>
+                    <div class="form-group">
+                        <label for="gender" class="col-sm-3 control-label">Gender:</label> 
+                        <div class="col-sm-9">
+                            <label for="gender_male" class="radio">
+                                <input id="gender_male" type="radio" name="gender" value="male">
+                                Male					
+                            </label> 
+                            
+                            
+                            <label for="gender_female" class="radio">
+                                <input id="gender_female" type="radio" name="gender" value="female">
+                                Female
+                            </label> 
+                        </div>
+                        </div>
+                    <label for="b-day b-month">Birth date:</label>
+                    <select name="birth-data" id="b-month">
+                        <option>-Month-</option>
+                    </select>
+                    <select name="birth-data" id="b-day">
+                        <option>-Day-</option>
+                    </select>
+                    <select name="birth-data" id="b-year">
+                        <option>-Year-</option>
+                    </select>
+                    
+                    <p><label >Password: <input id="password" type="password" size="30"></label></p>
+                    <p><label >Confirmed Password: <input id="name2" type="password" size="30"></label></p>
+
+                    <label for="units">Preferred units</label>
+                    <select name="units" id="units">
+                        <option> Metric(kgs)</option>
+                        <option>Imperial (lbs)</option>
+                    </select>
+
+                    <label for="timezones">Timezone</label>
+                    <select name="timezones" id="timezones">
+                    </select>
+
+
+                    
+                    <p><label >My Gym: <input id="name3" type="text" size="30"></label></p>
+                    <div class="form-group">
+						<label for="user-description" class="col-sm-3 control-label">Your description for profile page:</label>
+						<div class="col-sm-9">
+							<textarea id="user-description" name="user-description" class="form-control" rows="2" style="resize: vertical;"></textarea>
+						</div>
+
+                    <div>
+                        <h4>Profile URL</h4>
+                        <div>
+                            <p>You can choose a personal URL for your profile page:</p>
+                            <div class="input-group">
+								<span class="input-group-addon">www.gymwolf.com/</span>
+								<input id="gwun" class="form-control" type="text" name="username" value="#">
+							</div>
+                        </div>
+                    </div>
+					</div>
+
+                    <div>
+                        <button>Save</button>
+                    </div>
+                </form>
+                
+
+            </div>
+            
+        </div>
+    </div>
+    <div id="profile">
+        <div class="profile-image">
+            <img src="https://www.gymwolf.com/user_images/d55e70fcc15948813f317773288f627c_.jpg">
+        </div>
+        
+        <button>Change profile picture</button>
+        <h4>0</h4>
+        <p>Workouts added</p>
+        <h4>0 kg</h4>
+        <p>Lifted</p>
+
+    </div>
+</section>
+<footer>
+    <div class="footerv">
+       
+    </div>
+</footer>
+    
+</body>
+</html>
+
+<!-- <form>
+                    <label for="name">Enter username (upper and lowercase letters): </label>
+                    <input type="text" name="name" id="name" required pattern="[a-zA-Z]+">
+                    <button>Submit</button>
+                  </form> -->
+<!-- <script>
+    const nameInput = document.querySelector('#name');
+
+nameInput.addEventListener('input', () => {
+  nameInput.setCustomValidity('');
+  nameInput.checkValidity();
+});
+
+nameInput.addEventListener('invalid', () => {
+  if (nameInput.value === '') {
+    nameInput.setCustomValidity('Enter your username!');
+  } else {
+    nameInput.setCustomValidity('Usernames can only contain upper and lowercase letters. Try again!');
+  }
+});
+
+</script> -->
+<script src="./Scripts/profiePage.js"></script>
+
+<script type="module">
+    let footer1=document.querySelector(".footerv")
+    import {navbar,footer} from "../fw20_1110/components/navbar&footer.js"
+
+    footer1.innerHTML=footer()
+  
+</script>
+
+<script type="module">
+    let navbar1= document.querySelector("#container")
+    import navbar from "../Umer_Ahmad_fw20_0026/JS/nav.js"
+    navbar1.innerHTML=navbar()
+</script>

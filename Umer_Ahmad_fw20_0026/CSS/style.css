@@ -1,0 +1,199 @@
+#box1 {
+
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #fff;
+    display: flex;
+}
+
+#box1>div {
+    width: 50%;
+    height: 100%;
+}
+
+#button_div {
+
+    width: 97%;
+    height: 45px;
+    margin: auto;
+    background-color: #2ecc71;
+    border-color: #29b062;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#button_div:hover,
+#button_div2:hover, #button_div3:hover {
+    background-color: #29b062;
+    ;
+
+
+}
+
+.plus_symbol {
+    color: #fff;
+}
+
+#button_div p {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+#steps_for_verify {
+
+    width: 97%;
+    height: 420px;
+    margin: auto;
+    margin-top: 15px;
+    background-color: rgb(250, 246, 246);
+    border-radius: 5px;
+}
+
+#guide {
+
+    width: 95%;
+    height: 30px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#guide p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: inherit;
+    font-size: 30px;
+
+}
+
+#guide2 {
+    width: 95%;
+    height: 270px;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+}
+
+.guide2_1st_div {
+    width: 10%;
+    height: 100%;
+}
+
+.guide2_2nd_div {
+    width: 90%;
+    height: 100%;
+}
+
+.guide2_2nd_div>div {
+    width: 100%;
+    height: 90px;
+
+}
+
+.verify {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.email {
+    font-family: "Open Sans", sans-serif;
+
+}
+
+#button_div2 {
+
+    width: 130px;
+    height: 35px;
+    background-color: #2ecc71;
+    border-color: #29b062;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    color: #fff;
+
+}
+
+#para {
+    font-weight: bold;
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    margin-left: 13px;
+}
+
+#parent {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(250, 246, 246);
+    border-radius: 5px;
+
+}
+
+#h2 {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+#para2 {
+    width: 100%;
+    height: auto;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.428571429;
+    color: #333;
+    margin-top: 15px;
+
+}
+#button2{
+    margin-top: 15px;
+}
+
+#button_div3{
+    width: 100%;
+    height: 45px;
+    margin: auto;
+    background-color: #2ecc71;
+    border-color: #29b062;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+#button_div3 p {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+
+#box2{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #fff;
+    display: flex;
+    border: 1px solid red;
+}
+#box2>div{
+    width: 50%;
+    height: auto;
+}

@@ -1,0 +1,52 @@
+#container {
+
+    width: 100%;
+    height: 80px;
+    background-color: #041628;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    
+}
+
+#left_nav {
+
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#right_nav {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#right_nav p,
+a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#right_nav p:hover {
+    color: #428bca;
+}
+
+#right_nav img {
+
+    width: 30px;
+    height: 20px;
+    background-color: none;
+}
+.commentIcon:hover{
+    color: #428bca;
+    
+}
