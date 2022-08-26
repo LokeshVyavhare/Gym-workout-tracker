@@ -87,7 +87,7 @@ document.querySelector('#regi_button').addEventListener('click', (event) => {
     let email = document.querySelector('#divinput input').value;
     localStorage.setItem('signup_email', JSON.stringify(email));
     document.querySelector('#divinput input').value = '';
-    window.location.href = "harshal's page"
+    window.location.href = "../fw20_0729/profilePage.html";
 })
 
 document.querySelector('#signin_form form').addEventListener('submit', (event) => {
