@@ -8,10 +8,6 @@
   <title>HomePage Not signed</title>
   <link rel="stylesheet" href="./fw20_1110/CSS/stylesheet.css" />
 
-  <!-- css for components which are imported -->
-  <link rel="stylesheet" href="./fw20_1110/components/navbar&footer.css">
-
-  <!-- fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -36,7 +32,7 @@
       </div>
       <div id="divinput" class="notdisplay">
         <input type="text" placeholder="Entre your Email">
-        <button>Register</button><br>
+        <button id="regi_button">Register</button><br>
         <button>| Sign In with Facebook</button>
       </div>
 
@@ -45,6 +41,7 @@
       </div>
 
     </div>
+    <div id="extender"></div>
   </div>
   <!-- **********************--MId-Section--**************************************** -->
 
@@ -127,6 +124,36 @@
     <!-- ******************* ->Footer Section ->************************************** -->
 
   </div>
+
+  <!-- signin pop up/display?fixed/none -->
+  <section id="signin_form" class="notdisplay">
+    <button id="cancel_signin"><span>X</span></button>
+    <p id="signin_header">Sign In</p>
+    <form>
+      <input type="email" placeholder="E-mail" id="signin_email">
+      <p id="instuctions_email" class="notdisplay">Ex</p>
+      <input type="password" placeholder="Password" id="signin_pass">
+      <p id="instuctions_email" class="notdisplay">Ex</p>
+
+      <div id="frgt_pass">
+        <p class="col-blue underline">Forgot Password</p>
+      </div>
+
+      <button id="signIn_bt" type="submit">Sign In</button>
+
+      <p class="col-grey">-Or-</p>
+
+      <button><b style="font-size: 18px">f</b> |Sign In With Facebook</button>
+
+      <p>Not a Gymwolf user?
+        <span class="col-blue" onclick="register">Register</apan>
+      </p>
+
+    </form>
+  </section>
+  <!-- signin pop up -->
+
+
   <footer>
     <div class="footerv">
 
@@ -137,22 +164,4 @@
 
 </html>
 
-
-<script type="module">
-
-  import { navbar, footer } from './fw20_1110/components/navbar&footer.js'
-
-  document.getElementById("navbar").innerHTML = navbar()
-  document.querySelector(".footerv").innerHTML = footer()
-
-  document.getElementById("register").addEventListener("click", myregis)
-
-  function myregis() {
-    document.getElementById("buttonhome").setAttribute("class", "notdisplay")
-    document.getElementById("divinput").setAttribute("class", "display")
-  }
-
-// console.log(navbar,footer)
-
-
-</script>
+<script src="./fw20_1110/Scripts/homepage_pre.js" type="module"></script>
