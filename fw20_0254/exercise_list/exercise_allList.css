@@ -1,0 +1,41 @@
+#exer_list {
+    margin: 25px auto;
+}
+
+.exercise_list_ele {
+    display: flex;
+}
+
+.exercise_list_ele img {
+    width: 100px;
+    height: 100px;
+}
+
+#exer_list>h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.exercise_list_ele>div {
+    border: 1px solid rgb(214, 214, 214);
+    padding: 15px;
+    width: 100%;
+}
+
+.exercise_list_ele>div:first-child {
+    width: 130px;
+}
+
+.exercise_list_ele a {
+    color: #428bca;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+.exercise_list_ele a:hover {
+    text-decoration: underline;
+    color: #2f628f;
+}
