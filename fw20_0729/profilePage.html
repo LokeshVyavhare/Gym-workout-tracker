@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./CSS/profilePage.css">
+    <link rel="stylesheet" href="../fw20_1110/components/navbar&footer.css">
+    <link rel="stylesheet" href="../Umer_Ahmad_fw20_0026/CSS/nav.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="container">
+    <header id="container">
+
+    </header>
+    <section>
+    <div id="body-container">
         <div class="upper-body">
             <div><a href="#">General</a></div>
             <div><a href="#">Body measurements</a></div>
@@ -20,7 +29,7 @@
                 <a href="#">Delete Profile</a>
             </div>
             <div>
-                <form action="#">
+                <form style="height:fit-content ;">
                     <p><label>Email:</label></p>
                     <p><label >Your name: <input id="name1" type="text" size="30"></label></p>
                     <div class="form-group">
@@ -87,11 +96,31 @@
                         <button>Save</button>
                     </div>
                 </form>
+                
 
             </div>
             
         </div>
     </div>
+    <div id="profile">
+        <div class="profile-image">
+            <img src="https://www.gymwolf.com/user_images/d55e70fcc15948813f317773288f627c_.jpg">
+        </div>
+        
+        <button>Change profile picture</button>
+        <h4>0</h4>
+        <p>Workouts added</p>
+        <h4>0 kg</h4>
+        <p>Lifted</p>
+
+    </div>
+</section>
+<footer>
+    <div class="footerv">
+       
+    </div>
+</footer>
+    
 </body>
 </html>
 
@@ -119,6 +148,16 @@ nameInput.addEventListener('invalid', () => {
 </script> -->
 <script src="./Scripts/profiePage.js"></script>
 
-<script>
+<script type="module">
+    let footer1=document.querySelector(".footerv")
+    import {navbar,footer} from "../fw20_1110/components/navbar&footer.js"
+
+    footer1.innerHTML=footer()
   
+</script>
+
+<script type="module">
+    let navbar1= document.querySelector("#container")
+    import navbar from "../Umer_Ahmad_fw20_0026/JS/nav.js"
+    navbar1.innerHTML=navbar()
 </script>

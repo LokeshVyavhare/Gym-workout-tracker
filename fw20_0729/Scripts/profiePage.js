@@ -31,7 +31,7 @@
 
 // timezone
 
- let timezone=[
+ let timezoneData=[
 
        "Abidjan",
        "Accra",
@@ -438,19 +438,97 @@
        "Wallis",
     ]
 
-    let continents=["Africa","America","Antarctica","Arctic","Asian","Australia","Atlantic","Europe","Indian","Pacific"]
+    let continents=["Africa","America","Antarctica","Arctic","Asia","Atlantic","Australia","Europe","Indian","Pacific"]
+    let cont_ext=["Abidjan","Adak","Longyearbean","Aden","Azores","Adelaide","Amsterdam","Antananarivo","Apia","Reunion"]
+    let time_zones= document.getElementById("timezones")
 
-    let timezones= document.getElementById("timezones")
-    let optgroup=document.createElement("optgroup")
-    for (let i = 0; i <timezone.length ; i++) {
-        let option=document.createElement("option")
-        
-        // i==0?optgroup.setAttribute("label",continents[0]):option.innerText=timezone[i]
-        if(i==0){
-            optgroup.setAttribute("label",continents[0])
-            // timezones.append(optgroup)
-        }
-        option.innerText=timezone[i]
-        optgroup.append(option)
-        timezones.append(optgroup)
+    
+
+    // for (let i = 0; i <continents.length ; i++) {
+    //     optgroup.setAttribute("label",continents[j])
+    // }
+    let c=()=> {
+        return document.createElement("optgroup")
     }
+
+    let optgroup1=c()
+    let optgroup2=c()
+    let optgroup3=c()
+    let optgroup4=c()
+    let optgroup5=c()
+    let optgroup6=c()
+    let optgroup7=c()
+    let optgroup8=c()
+    let optgroup9=c()
+    let optgroup10=c()
+
+
+    for (let i = 0; i <timezoneData.length ; i++) {
+        let option=document.createElement("option")
+        // i==0?optgroup.setAttribute("label",continents[0]):option.innerText=timezone[i]
+        
+        if(i>=0 && i<52){
+            optgroup1.setAttribute("label",continents[0])
+                option.innerText=timezoneData[i]
+                optgroup1.append(option)
+                time_zones.append(optgroup1)
+        }
+         else if(i>=52 && i<178){
+            optgroup2.setAttribute("label",continents[1])
+                option.innerText=timezoneData[i]
+                optgroup2.append(option)
+                time_zones.append(optgroup2)
+        }
+        else if(i>=178 && i<189){
+            optgroup3.setAttribute("label",continents[2])
+                option.innerText=timezoneData[i]
+                optgroup3.append(option)
+                time_zones.append(optgroup3)
+        }
+        else if(i>=189 && i<190){
+            optgroup4.setAttribute("label",continents[3])
+                option.innerText=timezoneData[i]
+                optgroup4.append(option)
+                time_zones.append(optgroup4)
+        }
+        else if(i>=190 && i<273){
+            optgroup5.setAttribute("label",continents[4])
+                option.innerText=timezoneData[i]
+                optgroup5.append(option)
+                time_zones.append(optgroup5)
+        }
+        else if(i>=273&& i<283){
+            optgroup6.setAttribute("label",continents[5])
+                option.innerText=timezoneData[i]
+                optgroup6.append(option)
+                time_zones.append(optgroup6)
+        }
+        else if(i>=283 && i<294){
+            optgroup7.setAttribute("label",continents[6])
+                option.innerText=timezoneData[i]
+                optgroup7.append(option)
+                time_zones.append(optgroup7)
+        }
+        else if(i>=294 && i<354){
+            optgroup8.setAttribute("label",continents[7])
+                option.innerText=timezoneData[i]
+                optgroup8.append(option)
+                time_zones.append(optgroup8)
+        }
+        else if(i>=354 && i<365){
+            optgroup9.setAttribute("label",continents[8])
+                option.innerText=timezoneData[i]
+                optgroup9.append(option)
+                time_zones.append(optgroup9)
+        }
+        else if(i>=365){
+            optgroup10.setAttribute("label",continents[9])
+                option.innerText=timezoneData[i]
+                optgroup10.append(option)
+                time_zones.append(optgroup10)
+        }
+       
+       
+    }
+
+    
