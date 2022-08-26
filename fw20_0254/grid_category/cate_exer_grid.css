@@ -2,6 +2,9 @@
     width: 100%;
     display: grid;
     margin: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 35px;
 }
@@ -18,7 +21,6 @@
 
 #exer_9cate_grid>div a {
     width: 100%;
-
     height: 100%;
     text-align: center;
     color: #fff;
