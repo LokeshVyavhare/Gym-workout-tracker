@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HomePage Not signed</title>
   <link rel="stylesheet" href="./fw20_1110/CSS/stylesheet.css" />
+  <link rel="stylesheet" href="./fw20_1110/components/navbar&footer.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -22,13 +23,61 @@
 
     <!--**************** NavBar Section      ******************** -->
     <div id="navbar">
+        <nav>
+            <img src="https://www.gymwolf.com/img/gymwolf.png" id='logo' class="logo" />
+            <img src="https://www.gymwolf.com/img/gymwolf-small.png" alt="" id="logo2" class="logo" >
+        
+            <ul>
+              <li id="register"><a href="#">Register</a></li>
+              <li id="login"><a href="#">Sign In</a></li>
+              <li><a href=""><img src="https://img.icons8.com/ios/344/search--v1.png" id='srch_lv'></a></li>
+              <li id="menubtn">&#8803; <div id="smallscr">
+             
+                <p id="register1"><a href="#">Register</a></p>
+                <p id="login1"><a href="#">Sign In</a></p>
+              
+            
+          </div></li>
+
+            </ul>
+            
+          </nav>
+          
+         
 
     </div>
     <!-- ******* Heading-1 ******************** -->
     <div class="content">
       <h1>A better way to track your workouts</h1>
       <div id="buttonhome" class="display">
-        <button><a href="">Start Free</a></button>
+        <button id="startfree"><a href="">Start Free</a></button>
+      </div>
+      <div class="play">
+        <p class="playp" >Get the app</p>
+        <p>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.mooncascade.gymwolf"
+            title="Android App"
+          >
+            <img
+              src="https://www.gymwolf.com/img/footer/android-button.png"
+              alt="Android App"
+              width="134"
+            />
+          </a>
+        </p>
+        <p>
+          <a
+            href="https://www.gymwolf.com/img/footer/ios-button.png"
+            title="iPhone App"
+          >
+            <img
+              src="https://www.gymwolf.com/img/footer/ios-button.png"
+              alt="iPhone App"
+              width="134"
+            />
+          </a>
+        </p>
       </div>
       <div id="divinput" class="notdisplay">
         <input type="text" placeholder="Entre your Email">

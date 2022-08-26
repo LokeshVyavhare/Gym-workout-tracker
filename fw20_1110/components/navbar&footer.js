@@ -1,13 +1,24 @@
 function navbar() {
-  return `  <nav>
-    <img src="https://www.gymwolf.com/img/gymwolf.png" id='logo' class="logo" />
+  return `<nav>
+  <img src="https://www.gymwolf.com/img/gymwolf.png" id='logo' class="logo" />
+  <img src="https://www.gymwolf.com/img/gymwolf-small.png" alt="" id="logo2" class="logo" >
 
-    <ul>
-      <li id="register"><a href="#">Register</a></li>
-      <li id="login"><a href="#">Sign In</a></li>
-      <li><a href=""><img src="https://img.icons8.com/ios/344/search--v1.png" id='srch_lv'></a></li>
-    </ul>
-  </nav>`
+  <ul>
+    <li id="register"><a href="#">Register</a></li>
+    <li id="login"><a href="#">Sign In</a></li>
+    <li><a href=""><img src="https://img.icons8.com/ios/344/search--v1.png" id='srch_lv'></a></li>
+    <li id="menubtn">&#8803; <div id="smallscr">
+   
+      <p id="register1"><a href="#">Register</a></p>
+      <p id="login1"><a href="#">Sign In</a></p>
+    
+  
+</div></li>
+
+  </ul>
+  
+</nav>
+`
 }
 
 function footer() {
@@ -26,7 +37,7 @@ function footer() {
       <p><a href="/pricing" title="Pricing">Pricing</a></p>
     </div>
     <div class="col-xs-12 col-sm-2">
-      <p class="lead">Get the app</p>
+      <p class="lead" >Get the app</p>
       <p>
         <a
           href="https://play.google.com/store/apps/details?id=com.mooncascade.gymwolf"

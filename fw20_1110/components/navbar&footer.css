@@ -14,7 +14,7 @@ nav {
     left: 0;
     font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
-    padding: 20px 8%;
+    padding: 20px 20px;
     display: flex;
     background-color: #0000003f;
     align-items: center;
@@ -130,7 +130,9 @@ footer p {
 footer .copyright {
     width: auto;
 }
-
+.play{
+    display: none;
+}
 footer .footerv {
     padding-top: 60px;
     font-size: 18px;
@@ -236,4 +238,203 @@ footer .copyright {
 
 .underline {
     text-decoration: underline;
+}
+    
+#logo2{
+    display: none;
+}
+@media screen and (min-width:200px) and (max-width:768px)  {
+
+    #logo{
+        display: none;
+    }
+    #logo2{
+        display: block;
+    }
+     nav #menubtn{
+        display: inline-block;
+    }
+    #register{
+        display: none;
+    }
+    #login{
+        display: none;
+    }
+    nav #menubtn:hover #smallscr{
+        display: block;
+        position: fixed;
+        top: 90px;
+        left: 0;
+        width: 800px;
+        background-color: #041628;;
+        text-align: center;
+        border-top: 1px solid gray;
+
+
+    }
+    nav{
+        background-color:#041628;;
+    }
+    .content{
+        margin-top: 180px;
+    }
+    .landing{
+        background-image: url("https://www.gymwolf.com/img/header-bg.jpg");
+        padding: 50px;
+        
+    }
+    .lead{
+        display: block;
+    }
+    
+    .play{
+        display: block;
+    }
+    .playp{
+        color: #ffffff;
+    }
+    .play {
+        display: ;
+    }
+    #startfree{
+        display: none;
+    }
+    .video{
+        display: none;
+    }
+    .mid-section h1{
+        margin-top: 50px;
+    margin-bottom: 18px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+        
+    }
+    .mid-section p {
+        margin-bottom: 24px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.mid-section button{
+    color: #ffffff;
+    background-color: #041628;
+    border-color: #041628;
+    width: 350px;
+    margin-left: 90px;
+}
+.mid-section-part-1 h1{
+    margin-top: 50px;
+    margin-bottom: 18px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.mid-section-2 img{
+    display: none;
+    
+
+}
+.mid-section-2 {
+    padding-top: 0px;
+}
+.mid-section-2{
+    width: 100%;
+    /* border: 1px solid green; */
+    padding-bottom: 0;
+    /* display: none; */
+}
+.mid-section-part-1 p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    width: 100%;
+    /* padding: 0; */
+}
+.mid-section-part-1{
+    width: 550px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 0;
+    width: 105%;
+    text-align: center;
+    margin: auto;
+    margin-right: 50px;
+}
+.mid-section-part-1 button{
+    width: 350px;
+    margin-left: 30px;
+
+}
+.mid-section-part-2 button{
+    width: 350px;
+    margin-right: 30px;
+
+
+}
+.mid-section-part-2{
+    padding: 0;
+}
+.mid-section-part-2 p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    width: 100%;
+
+}
+.mid-section-part-2 h1{
+    margin-top: 50px;
+    margin-bottom: 18px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.mid-section-part-2{
+    width: 550px;
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 0;
+    width: 105%;
+    text-align: center;
+    margin: auto;
+    margin-right: 50px;
+    gap: 0;
+
+} 
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.footer-lifted{
+    padding-top: 56px;
+    padding-bottom: 50px;
+    background-color: #e6e7ea;
+    text-align: center;
+}
+.container div{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+.copyright{
+    font-size: 12px;
+}
+
+    
+    
+
+#menubtn{
+    color: #ffffff;
+    border: 1px solid white;
+    padding: 2px 7px;
+    display: none;
+
+}
+#smallscr{
+    display: none;
 }
