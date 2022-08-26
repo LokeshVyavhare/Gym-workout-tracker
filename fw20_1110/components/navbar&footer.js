@@ -1,6 +1,6 @@
 function navbar() {
   return `  <nav>
-    <img src="https://www.gymwolf.com/img/gymwolf.png" class="logo" />
+    <img src="https://www.gymwolf.com/img/gymwolf.png" id='logo' class="logo" />
 
     <ul>
       <li id="register"><a href="#">Register</a></li>
