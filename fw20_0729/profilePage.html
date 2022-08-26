@@ -19,74 +19,82 @@
     <section>
     <div id="body-container">
         <div class="upper-body">
-            <div><a href="#">General</a></div>
-            <div><a href="#">Body measurements</a></div>
+            <div><a href="#" id="general">General</a></div>
+            <div><a href="#" id="Body_measurements">Body measurements</a></div>
             <div><a href="#">Privacy</a></div>
         </div>
         <div id="general-container">
-            <div>
+            <div id="general">
                 <h2>General</h2>
-                <a href="#">Delete Profile</a>
+                <p>Delete profile</p>
             </div>
             <div>
-                <form style="height:fit-content ;">
-                    <p><label>Email:</label></p>
-                    <p><label >Your name: <input id="name1" type="text" size="30"></label></p>
+                <form>
+                    <label class="email">Email:</label><br>
+                    <label for="name1">Your name:</label>
+                     <input id="name1" class="input-box" type="text"><br>
+
                     <div class="form-group">
-                        <label for="gender" class="col-sm-3 control-label">Gender:</label> 
-                        <div class="col-sm-9">
-                            <label for="gender_male" class="radio">
+                        <label id="gender" for="gender-option" class= control-label">Gender:</label>
+                        <!-- <div class="genders"> -->
+                            <label id="gender-option"  for="gender_male" class="radio">
                                 <input id="gender_male" type="radio" name="gender" value="male">
                                 Male					
-                            </label> 
+                            </label><br>
                             
-                            
-                            <label for="gender_female" class="radio">
+                            <label id="gender-option" for="gender_female" class="radio">
                                 <input id="gender_female" type="radio" name="gender" value="female">
                                 Female
-                            </label> 
-                        </div>
-                        </div>
-                    <label for="b-day b-month">Birth date:</label>
-                    <select name="birth-data" id="b-month">
-                        <option>-Month-</option>
+                            </label>
+                        <!-- </div> -->
+                            
+                        </div><br> 
+
+                    <label class="b-day" for="b-day b-month">Birth date:</label>
+                    <select class="input-box" name="birth-data" id="b-month" class="birth-data">
+                        <option >-Month-</option>
                     </select>
-                    <select name="birth-data" id="b-day">
-                        <option>-Day-</option>
+                    <select class="input-box" name="birth-data" id="b-day" class="birth-data">
+                        <option >-Day-</option>
                     </select>
-                    <select name="birth-data" id="b-year">
-                        <option>-Year-</option>
-                    </select>
+                    <select class="input-box" name="birth-data" id="b-year" class="birth-data">
+                        <option >-Year-</option>
+                    </select><br>
                     
-                    <p><label >Password: <input id="password" type="password" size="30"></label></p>
-                    <p><label >Confirmed Password: <input id="name2" type="password" size="30"></label></p>
+                    <label for="password1">Password: </label>
+                    <input class="input-box"  id="password1" type="password"><br>
+                    <label for="password2">Confirmed Password: </label>
+                    <input class="input-box"  id="password2" type="password"><br>
+                    
 
-                    <label for="units">Preferred units</label>
-                    <select name="units" id="units">
-                        <option> Metric(kgs)</option>
-                        <option>Imperial (lbs)</option>
+                    <label for="units">Preferred units:</label>
+                    <select class="input-box" name="units" id="units" >
+                        <option > Metric(kgs)</option>
+                        <option> Imperial (lbs)</option>
                     </select>
+                    <br>
 
-                    <label for="timezones">Timezone</label>
-                    <select name="timezones" id="timezones">
-                    </select>
+                    <label for="timezones">Timezone:</label>
+                    <select class="input-box" name="timezones" id="timezones">
+                    </select><br>
 
 
                     
-                    <p><label >My Gym: <input id="name3" type="text" size="30"></label></p>
+                    <label for="myGym">My Gym: </label>
+                    <input class="input-box"  id="myGym" type="text"><br>
+
                     <div class="form-group">
 						<label for="user-description" class="col-sm-3 control-label">Your description for profile page:</label>
-						<div class="col-sm-9">
-							<textarea id="user-description" name="user-description" class="form-control" rows="2" style="resize: vertical;"></textarea>
-						</div>
+						<textarea id="user-description" name="user-description" class="form-control" rows="2" style="resize: vertical;"></textarea>
+						<br>
 
                     <div>
                         <h4>Profile URL</h4>
                         <div>
                             <p>You can choose a personal URL for your profile page:</p>
-                            <div class="input-group">
-								<span class="input-group-addon">www.gymwolf.com/</span>
-								<input id="gwun" class="form-control" type="text" name="username" value="#">
+                            <div class="input class="input-box" -group">
+								<span class="input class="input-box" -group-addon">www.gymwolf.com/</span>
+								<input class="input-box"  id="gwun" class="form-control" type="text" name="username" value="#">
 							</div>
                         </div>
                     </div>
@@ -101,51 +109,49 @@
             </div>
             
         </div>
+
+        <div id="Body_measurements">
+            <h3>Body measurements</h3>
+            <div class="height-input"></div>
+                <label for="height">Height</label>
+                <input type="number" id="height">
+                <input type="number" id="height">
+            </div><br>
+                <label for="height">Waist</label>
+                <input type="number" id="height">
+                <br>
+                <label for="height">Hips</label>
+                <input type="number" id="height">
+                <br>
+                <label for="height">Neck</label>
+                <input type="number" id="height">
+                <br>
+
+        </div>
     </div>
     <div id="profile">
         <div class="profile-image">
             <img src="https://www.gymwolf.com/user_images/d55e70fcc15948813f317773288f627c_.jpg">
         </div>
         
-        <button>Change profile picture</button>
+        <button class="profile-pic-button">Change profile picture</button>
         <h4>0</h4>
         <p>Workouts added</p>
         <h4>0 kg</h4>
         <p>Lifted</p>
-
+    
     </div>
 </section>
+
 <footer>
     <div class="footerv">
        
     </div>
-</footer>
+</footer> 
     
 </body>
 </html>
 
-<!-- <form>
-                    <label for="name">Enter username (upper and lowercase letters): </label>
-                    <input type="text" name="name" id="name" required pattern="[a-zA-Z]+">
-                    <button>Submit</button>
-                  </form> -->
-<!-- <script>
-    const nameInput = document.querySelector('#name');
-
-nameInput.addEventListener('input', () => {
-  nameInput.setCustomValidity('');
-  nameInput.checkValidity();
-});
-
-nameInput.addEventListener('invalid', () => {
-  if (nameInput.value === '') {
-    nameInput.setCustomValidity('Enter your username!');
-  } else {
-    nameInput.setCustomValidity('Usernames can only contain upper and lowercase letters. Try again!');
-  }
-});
-
-</script> -->
 <script src="./Scripts/profiePage.js"></script>
 
 <script type="module">
@@ -161,3 +167,4 @@ nameInput.addEventListener('invalid', () => {
     import navbar from "../Umer_Ahmad_fw20_0026/JS/nav.js"
     navbar1.innerHTML=navbar()
 </script>
+<script src="./Scripts/profilePage2.js"></script>
