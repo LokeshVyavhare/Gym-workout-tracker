@@ -90,6 +90,7 @@ nav ul li a {
 .content {
     text-align: center;
     margin-top: 270px;
+    
 }
 
 .content h1 {
@@ -119,10 +120,12 @@ nav ul li a {
     position: absolute;
     right: 0;
     bottom: 0;
-    z-index: -10;
+    z-index: -1;
+    /* height: fit-content; */
     /* margin-top: 150px; */
 
 }
+
 
 @media (min-aspect-ratio:16/9) {
     .video {
@@ -136,7 +139,7 @@ nav ul li a {
         width: auto;
         height: 100%;
     }
-}
+} 
 
 #extender {
     display: block;
@@ -453,4 +456,7 @@ p {
 
 .underline {
     text-decoration: underline;
+}
+#menubtn{
+display: none;
 }
