@@ -39,7 +39,7 @@ let users=JSON.parse(localStorage.getItem("users"))||[]
 
 let form=document.querySelector("form")
 .addEventListener("submit",(event)=>{
-event.preventDefault()
+// event.preventDefault()
 
 
 let name=document.getElementById("name1").value
