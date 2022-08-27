@@ -21,12 +21,12 @@
     <section>
     <div id="body-container">
         <div class="upper-body">
-            <div id="general">General</div>
-            <div id="Body_measurements">Body measurements</div>
-            <div>Privacy</></div>
+            <div class="upper-body-data" id="general">General</div>
+            <div class="upper-body-data" id="Body_measurements">Body measurements</div>
+            <div class="upper-body-data" id="privacy">Privacy</></div>
         </div>
         <div id="general-container">
-            <div id="general">
+            <div id="general-name">
                 <h2>General</h2>
                 <p>Delete profile</p>
             </div>
@@ -102,12 +102,6 @@
                     </div>
 					
 
-                    <div class="save-button ">
-                        <button type="submit" class="save">Save</button>
-                    </div>
-                </form>
-                
-
             </div>
             
         </div>
@@ -115,21 +109,26 @@
         <div class="not-display" id="Body_measurements-container">
             <h3>Body measurements</h3>
             <div class="height-input">
-                <label for="height">Height</label>
-                <input type="number" id="height">
-                <input type="number" id="height">
+                <label for="height">Height:</label>
+                <input class="input-box BM-input BM-height" type="number" id="height"><span class="input-box units">m</span>
+                <input class="input-box BM-input BM-height" type="number" id="height"><span class="input-box units">cm</span>
             </div><br>
-                <label for="height">Waist</label>
-                <input type="number" id="height">
+                <label for="height">Waist:</label>
+                <input class="input-box BM-input" type="number" id="height"><span class="input-box units">cm</span>
                 <br>
-                <label for="height">Hips</label>
-                <input type="number" id="height">
+                <label for="height">Hips:</label>
+                <input class="input-box BM-input" type="number" id="height"><span class="input-box units">cm</span>
                 <br>
-                <label for="height">Neck</label>
-                <input type="number" id="height">
+                <label for="height">Neck:</label>
+                <input class="input-box BM-input" type="number" id="height"><span class="input-box units">cm</span>
                 <br>
             </div>
+            <div class="save-button ">
+                <button type="submit" class="save">Save</button>
+            </div>
         </div>
+        
+    </form>
     </div>
     <div id="profile">
         <div class="profile-image">
