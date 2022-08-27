@@ -1,3 +1,8 @@
+// harshal part
+let navbar1= document.querySelector("#container")
+    import navbar from "./nav.js"
+    navbar1.innerHTML=navbar()
+// harshal part
 
 displayUser();
 function displayUser(){

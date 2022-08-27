@@ -18,6 +18,37 @@ function navbar() {
         </a>
         <a href="#"><i class="fa fa-comments commentIcon" ></i></a>
 
+        <a href="" class="dropdown" >
+                <p id="user_nameOremail">
+                </p> 
+            
+                    <div id="logout_container" class="dropdown-content">
+                        <p>HI</p>
+                        <a href="">
+                            <p>Edit Profile</p>
+                        </a>
+                        <a href="">
+                            <p>Upgrade to PRO</p>
+                        </a>
+                        <hr>
+                        <a href="">
+                            <p>Language</p>
+                        </a>
+                        <a href="">
+                            <p>In English</p>
+                        </a>
+                        <a href="">
+                            <p>Eesti keeles</p>
+                        </a>
+                        <hr>
+                        <a href="">
+                            <p>Logout</p>
+                        </a>
+                    </div>
+                
+                     
+            </a>
+
     </div>`
 }
 
