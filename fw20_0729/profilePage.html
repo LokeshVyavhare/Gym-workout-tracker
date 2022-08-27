@@ -19,9 +19,9 @@
     <section>
     <div id="body-container">
         <div class="upper-body">
-            <div><a href="#" id="general">General</a></div>
-            <div><a href="#" id="Body_measurements">Body measurements</a></div>
-            <div><a href="#">Privacy</a></div>
+            <div id="general">General</div>
+            <div id="Body_measurements">Body measurements</div>
+            <div>Privacy</></div>
         </div>
         <div id="general-container">
             <div id="general">
@@ -30,7 +30,7 @@
             </div>
             <div>
                 <form>
-                    <label class="email">Email:</label><br>
+                    <label class="email">Email: </label><p class="input-box" id="email-id"></p><br>
                     <label for="name1">Your name:</label>
                      <input id="name1" class="input-box" type="text"><br>
 
@@ -101,7 +101,7 @@
 					</div>
 
                     <div>
-                        <button>Save</button>
+                        <button type="submit">Save</button>
                     </div>
                 </form>
                 
@@ -110,9 +110,9 @@
             
         </div>
 
-        <div id="Body_measurements">
+        <div class="not-display" id="Body_measurements-container">
             <h3>Body measurements</h3>
-            <div class="height-input"></div>
+            <div class="height-input">
                 <label for="height">Height</label>
                 <input type="number" id="height">
                 <input type="number" id="height">
@@ -126,7 +126,7 @@
                 <label for="height">Neck</label>
                 <input type="number" id="height">
                 <br>
-
+            </div>
         </div>
     </div>
     <div id="profile">

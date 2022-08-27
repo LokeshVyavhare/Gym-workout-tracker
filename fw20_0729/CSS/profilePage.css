@@ -129,3 +129,15 @@ select[name="birth-data"]{
 #gender_female{
     margin-left: 215px;
 }
+
+#email-id{
+    display: inline-block;
+    border: none;
+}
+
+.not-display{
+    display: none;
+}
+.display{
+    display: block;
+}
