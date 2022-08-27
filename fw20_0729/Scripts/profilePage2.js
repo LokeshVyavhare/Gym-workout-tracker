@@ -36,6 +36,7 @@ document.getElementById("email-id").innerText=userData
 
 let users=JSON.parse(localStorage.getItem("users"))||[]
 
+
 let form=document.querySelector("form")
 .addEventListener("submit",(event)=>{
 event.preventDefault()
@@ -47,8 +48,10 @@ let conf_password=document.getElementById("password2").value
 
 let obj={
     "name":name,
+    "email":userData,
     "password":password,
     "conf_password":conf_password
+
 }
 
 if(password===conf_password){
