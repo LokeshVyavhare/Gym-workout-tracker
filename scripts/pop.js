@@ -1,4 +1,5 @@
 let blk_scr = () => {
+    console.log('black')
     let blk_scrn = document.createElement('div');
     blk_scrn.id = 'blk_scrn';
     document.querySelector('body').append(blk_scrn);
@@ -18,8 +19,8 @@ let popA = async (text, loc) => {
     document.getElementById('pop_up_alert_msg').classList.remove('notdisplay');
     blk_scr();
     setTimeout(() => {
-        hide('pop_up_alert_msg', 3000);
-        hide_blk_scr();
+        hide('pop_up_alert_msg', 1);
+        // hide_blk_scr();
         if (loc !== undefined) {
             window.location.href = loc;
         }

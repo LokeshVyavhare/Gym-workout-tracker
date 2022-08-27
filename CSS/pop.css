@@ -2,12 +2,12 @@
     width: fit-content;
     background-color: #fff;
     box-shadow: 0 0 10px 3px grey;
-    padding: 10px 25px;
+    padding: 20px 55px;
     position: fixed;
     z-index: 100;
     top: 100px;
-    animation: slide-in-top 0.2s ease 1 normal forwards;
-    left: 50%;
+    animation: slide-in-top 00.2s 1 normal forwards;
+    left: 40%;
     transform: translate(-50%, -50%);
 }
 
