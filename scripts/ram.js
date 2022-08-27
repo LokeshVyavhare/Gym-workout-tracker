@@ -29,3 +29,12 @@ function displayUser() {
 }
 
 
+
+let logoutBtn = document.querySelector('.menu_logout');
+logoutBtn.addEventListener("click",function(){
+    //console.log("working")
+    localStorage.setItem("login_status",JSON.stringify(false));
+    localStorage.setItem("signup_email",JSON.stringify(null));
+    window.location.href = "./index.html"
+})
+
