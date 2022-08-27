@@ -1,5 +1,5 @@
-import { navbar, footer } from '../components/navbar&footer.js'
-import checkPass from '../../fw20_0254/passCheck.js/passCheck.js'
+import { navbar, footer } from './Export_navbar&footerA.js';
+import checkPass from './passCheck.js';
 
 // document.getElementById("navbar").innerHTML = navbar()
 document.querySelector(".footerv").innerHTML = footer()

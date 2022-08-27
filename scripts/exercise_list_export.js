@@ -1,4 +1,4 @@
-import data from './data.js';
+import data from './exer_data.js';
 
 let getData = () => {
     let data2 = JSON.parse(JSON.stringify(data));
