@@ -107,6 +107,10 @@ h1,h2,h3,h4,h5,h5{
     margin-bottom: 20px;
 }
 
+.trainer_list_row .trainer_text{
+    text-align: left;
+}
+
 hr{
     border: 1px solid #26a9e1;
     background-color: #26a9e1;
@@ -128,9 +132,10 @@ hr{
 
 .trainer_list_row .trainer_img_container{
     margin: 0 auto 20px auto;
-    width: 300px;
-    
+    width: 100%;
+    max-width: 300px;
 }
+
 .trainer_img{
     border-radius: 6px;
     display: block;
@@ -215,7 +220,8 @@ hr{
 
 
 .trainer_price_row{
-    display: flex;
+    display: grid;
+    
 }
 
 .trainer_price_row{
@@ -224,7 +230,7 @@ margin-left: -15px;
 }
 
 .trainer_price_col{
-    width: 33%;
+    width: 100%;
     padding: 0 15px;
 }
 
@@ -395,10 +401,12 @@ margin-left: -15px;
         width: 750px;
     }
 
+    
      .trainer_text{
         margin: 45px 0;
         font-size: 20px;
         font-size: 21px;
+        text-align: center;
     }
 
     #trainer_list_header{
@@ -459,6 +467,12 @@ margin-left: -15px;
         padding-left: 67px;
     }
 
+    .trainer_price_row{
+
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+
 }
 
 @media(min-width:990px){
@@ -466,6 +480,12 @@ margin-left: -15px;
     .trainer_container {
     width: 970px;
    }
+
+   
+   .trainer_price_row{
+
+    grid-template-columns: repeat(3,1fr);
+}
 }
 
 @media(min-width:1200px){

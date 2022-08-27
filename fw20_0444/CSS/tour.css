@@ -85,9 +85,6 @@ h1,h2,h3,h4,h5,h5{
     
 }
 
-.tour_demo_left .tour_text_area,.tour_demo_right .tour_text_area{
-    padding-right: 30px;
-}
 
 
 
@@ -179,13 +176,12 @@ a{
         margin: 0 auto;
     }
 
-    h2{
+    h2 {
         padding-top: 30px;
         margin-top: 20px;
         margin-bottom: 10px;
         line-height: 1.1;
     }
-
 }
 
 @media(min-width:768px){
@@ -199,6 +195,9 @@ a{
         float: left;
         margin: 0 50px 50px 0;
     
+    }
+    .tour_demo_left .tour_text_area,.tour_demo_right .tour_text_area{
+        padding-right: 30px;
     }
     
 
@@ -214,6 +213,13 @@ a{
     .tour_demo_left .tour_bottom_images {
         float: right;
     }
+
+    h2 {
+        padding-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        line-height: 1.1;
+    }
 }
 
 @media(min-width:990px){
@@ -221,12 +227,16 @@ a{
     .tour_container{
         width: 970px;
     }
+
+   
 }
 
 @media(min-width:1200px){
     .tour_container{
         width: 1170px;
     }
+
+    
 }
 
 
