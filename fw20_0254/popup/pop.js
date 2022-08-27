@@ -44,11 +44,11 @@ let popQ = async (text, T, F) => {
     document.querySelector('#pop_up_ask_msg p').innerText = text;
     document.getElementById('t_value').addEventListener('click', () => {
         localStorage.setItem('pop_up_ask_ans', JSON.stringify(true));
-        hide('pop_up_ask_msg', 500);
+        hide('pop_up_ask_msg', 200);
     });
     document.getElementById('f_value').addEventListener('click', () => {
         localStorage.setItem('pop_up_ask_ans', JSON.stringify(false));
-        hide('pop_up_ask_msg', 500);
+        hide('pop_up_ask_msg', 200);
 
     });
 

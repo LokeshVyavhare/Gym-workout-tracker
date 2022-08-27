@@ -5,7 +5,7 @@ footer * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-nav {
+#navbar {
 
     width: 100%;
     height: 95px;
@@ -14,9 +14,8 @@ nav {
     left: 0;
     font-family: "Open Sans", sans-serif;
     box-sizing: border-box;
-    padding: 20px 20px;
+    padding: 30px 20px;
     display: flex;
-    background-color: #0000003f;
     align-items: center;
     justify-content: space-between;
 
@@ -42,6 +41,7 @@ nav {
 .notdisplay {
     display: none;
 }
+
 
 nav ul li {
     list-style: none;
@@ -130,9 +130,11 @@ footer p {
 footer .copyright {
     width: auto;
 }
-.play{
+
+.play {
     display: none;
 }
+
 footer .footerv {
     padding-top: 60px;
     font-size: 18px;
@@ -169,8 +171,23 @@ footer .copyright {
     padding-top: 30px;
     box-sizing: border-box;
     position: fixed;
+    animation: slide-in-top 0.2s ease 1 normal forwards;
     top: 20px;
     left: 30%;
+}
+
+@keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
 }
 
 #signin_form>form {
@@ -205,8 +222,16 @@ footer .copyright {
     font-size: 12px;
     background-color: #fff;
     color: rgb(220, 220, 220);
-    border: none;
 
+}
+
+#cancel_signin:hover {
+    color: rgb(31, 29, 29);
+}
+
+#cancel_signin:hover>span {
+    border: 0.1px solid rgb(31, 31, 31);
+    cursor: pointer;
 }
 
 #cancel_signin>span {
@@ -239,202 +264,126 @@ footer .copyright {
 .underline {
     text-decoration: underline;
 }
-    
-#logo2{
+
+#logo2 {
     display: none;
 }
-@media screen and (min-width:200px) and (max-width:768px)  {
 
-    #logo{
+@media screen and (min-width:200px) and (max-width:768px) {
+
+    #signin_form {
+        width: 95%;
+        border-radius: 5px;
+        background-color: #fff;
+        z-index: 10;
+        margin: auto;
+        text-align: center;
+        padding: 50px;
+        padding-top: 30px;
+        box-sizing: border-box;
+        position: fixed;
+        animation: slide-in-top 0.2s ease 1 normal forwards;
+        top: 20px;
+        left: 2.5%;
+        right: 2.5%;
+    }
+
+    #signin_form>form {
+        width: 100%;
+        margin: auto;
+        padding: 0 10%;
+    }
+
+    #logo {
         display: none;
     }
-    #logo2{
+
+    #logo2 {
         display: block;
     }
-     nav #menubtn{
+
+    nav #menubtn {
         display: inline-block;
     }
-    #register{
+
+    #register {
         display: none;
     }
-    #login{
+
+    #login {
         display: none;
     }
-    nav #menubtn:hover #smallscr{
-        display: block;
-        position: fixed;
-        top: 90px;
+
+    #extra_nav {
         left: 0;
-        width: 800px;
-        background-color: #041628;;
+        border-top: 2px solid gray;
+        top: 95px;
+        position: fixed;
+        width: 100%;
+        background-color: #041628;
         text-align: center;
-        border-top: 1px solid gray;
+        width: 100%;
+        z-index: 5;
 
 
     }
-    nav{
-        background-color:#041628;;
+
+    #extra_nav p {
+        padding: 10px 0;
+        box-sizing: content-box;
+        width: 90%;
+        margin: 15px auto;
     }
-    .content{
-        margin-top: 180px;
+
+    #extra_nav p:hover {
+        background-color: #082542;
     }
-    .landing{
-        background-image: url("https://www.gymwolf.com/img/header-bg.jpg");
-        padding: 50px;
-        
+
+    nav {
+        background-color: #041628;
+        ;
     }
-    .lead{
-        display: block;
+
+    .footer-lifted {
+        padding-top: 56px;
+        padding-bottom: 50px;
+        background-color: #e6e7ea;
+        text-align: center;
     }
-    
-    .play{
-        display: block;
+
+    .container div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+        /* border: 1px solid red; */
     }
-    .playp{
-        color: #ffffff;
+
+    .copyright {
+        font-size: 12px;
     }
-    .play {
-        display: ;
-    }
-    #startfree{
-        display: none;
-    }
-    .video{
-        display: none;
-    }
-    .mid-section h1{
-        margin-top: 50px;
-    margin-bottom: 18px;
-    font-size: 28px;
-    font-weight: bold;
-    color: #ffffff;
-    text-align: center;
-        
-    }
-    .mid-section p {
-        margin-bottom: 24px;
-    font-size: 16px;
-    width: 100%;
-}
-
-.mid-section button{
-    color: #ffffff;
-    background-color: #041628;
-    border-color: #041628;
-    width: 350px;
-    margin-left: 90px;
-}
-.mid-section-part-1 h1{
-    margin-top: 50px;
-    margin-bottom: 18px;
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
-
-}
-.mid-section-2 img{
-    display: none;
-    
-
-}
-.mid-section-2 {
-    padding-top: 0px;
-}
-.mid-section-2{
-    width: 100%;
-    /* border: 1px solid green; */
-    padding-bottom: 0;
-    /* display: none; */
-}
-.mid-section-part-1 p{
-    margin-bottom: 24px;
-    font-size: 16px;
-    width: 100%;
-    /* padding: 0; */
-}
-.mid-section-part-1{
-    width: 550px;
-    /* border: 1px solid red; */
-    text-align: center;
-    padding: 0;
-    width: 105%;
-    text-align: center;
-    margin: auto;
-    margin-right: 50px;
-}
-.mid-section-part-1 button{
-    width: 350px;
-    margin-left: 30px;
-
-}
-.mid-section-part-2 button{
-    width: 350px;
-    margin-right: 30px;
 
 
 }
-.mid-section-part-2{
-    padding: 0;
-}
-.mid-section-part-2 p{
-    margin-bottom: 24px;
-    font-size: 16px;
-    width: 100%;
 
-}
-.mid-section-part-2 h1{
-    margin-top: 50px;
-    margin-bottom: 18px;
-    font-size: 28px;
-    font-weight: bold;
-    text-align: center;
 
-}
-.mid-section-part-2{
-    width: 550px;
-    /* border: 1px solid red; */
-    text-align: center;
-    padding: 0;
-    width: 105%;
-    text-align: center;
-    margin: auto;
-    margin-right: 50px;
-    gap: 0;
 
-} 
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.footer-lifted{
-    padding-top: 56px;
-    padding-bottom: 50px;
-    background-color: #e6e7ea;
-    text-align: center;
-}
-.container div{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    padding: 10px;
-    /* border: 1px solid red; */
-}
-.copyright{
-    font-size: 12px;
-}
 
-    
-    
-
-#menubtn{
+#menubtn {
     color: #ffffff;
     border: 1px solid white;
     padding: 2px 7px;
+    cursor: pointer;
     display: none;
 
 }
-#smallscr{
+
+#extra_nav a {
+    color: #ffffff;
+    text-decoration: none;
+
+
+}
+
+#smallscr {
     display: none;
 }

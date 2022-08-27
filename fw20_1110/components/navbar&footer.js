@@ -1,21 +1,28 @@
 function navbar() {
   return `<nav>
-  <img src="https://www.gymwolf.com/img/gymwolf.png" id='logo' class="logo" />
-  <img src="https://www.gymwolf.com/img/gymwolf-small.png" alt="" id="logo2" class="logo" >
+  <div id="navbar">
+          <img src="https://www.gymwolf.com/img/gymwolf.png" id='logo' class="logo" />
+          <img src="https://www.gymwolf.com/img/gymwolf-small.png" alt="" id="logo2" class="logo">
 
-  <ul>
-    <li id="register"><a href="#">Register</a></li>
-    <li id="login"><a href="#">Sign In</a></li>
-    <li><a href=""><img src="https://img.icons8.com/ios/344/search--v1.png" id='srch_lv'></a></li>
-    <li id="menubtn">&#8803; <div id="smallscr">
-   
-      <p id="register1"><a href="#">Register</a></p>
-      <p id="login1"><a href="#">Sign In</a></p>
+          <ul>
+            <li id="register"><a href="#">Register</a></li>
+            <li id="login"><a href="#">Sign In</a></li>
+            <li><a href=""><img src="https://img.icons8.com/ios/344/search--v1.png" id='srch_lv'></a></li>
+            <li id="menubtn">&#8803; <div id="smallscr">
+
+
+              </div>
+            </li>
+
+          </ul>
+
+        <div id="extra_nav" class="notdisplay">
+          <p id="register1"><a href="#">Register</a></p>
+          <p id="login1"><a href="#">Sign In</a></p>
+        </div>
     
   
-</div></li>
-
-  </ul>
+</div>
   
 </nav>
 `
