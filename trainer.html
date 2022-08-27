@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="./CSS/trainer.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" ; />
+  <link rel="shortcut icon" href="https://www.gymwolf.com/images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./CSS/export_navbar&footerA.css">
+
+
+
+  <title>Trainer</title>
+</head>
+
+<body>
+  <div id="blackblur"></div>
+  <!-- signin popup -->
+  <section id="signin_form" class="notdisplay">
+    <button id="cancel_signin"><span>X</span></button>
+    <p id="signin_header">Sign In</p>
+    <form>
+      <input type="email" placeholder="E-mail" id="signin_email">
+      <p id="instuctions_email" class="notdisplay">Ex</p>
+      <input type="password" placeholder="Password" id="signin_pass">
+      <p id="instuctions_email" class="notdisplay">Ex</p>
+
+      <div id="frgt_pass">
+        <p class="col-blue underline">Forgot Password</p>
+      </div>
+
+      <button id="signIn_bt" type="submit">Sign In</button>
+
+      <p class="col-grey">-Or-</p>
+
+      <button><b style="font-size: 18px">f</b> |Sign In With Facebook</button>
+
+      <p>Not a Gymwolf user?
+        <span class="col-blue" onclick="register">Register</apan>
+      </p>
+
+    </form>
+  </section>
+
+
+
+  <div id="trainer_navbar"></div>
+  <div id="trainer_page">
+    <!-- trainer header -->
+    <div id="trainer_header">
+      <div class="trainer_container">
+        <h1>Online personal trainer</h1>
+      </div>
+    </div>
+
+    <!-- mid section -->
+    <div class="trainer_container">
+      <!-- small header intro -->
+      <div id="trainer_headerDescription">
+        <p class="trainer_text">
+          Gymwolf has certified personal trainers that provide you with
+          customised workout plans depending on your goals. Our trainers track
+          your progress, coach and motivate you daily through our web and
+          smartphone app.
+        </p>
+      </div>
+      <hr />
+      <!-- trainers -->
+      <div id="trainer_list">
+        <h2 id="trainer_list_header">Our trainers</h2>
+        <!-- Trainer 1 -->
+        <div class="trainer_list_row">
+          <div class="list_row_col1">
+            <div class="trainer_img_container">
+              <img class="trainer_img"
+                src="https://www.gymwolf.com/user_images/0db67d7bc0ced122b636098c6c7b6c9b_1530024726.jpg" alt="" />
+            </div>
+          </div>
+          <div class="list_row_col2">
+            <h3>Siim Savisaar</h3>
+            <p class="trainer_text">
+              Siim is a university-trained practising physiotherapist,
+              personal trainer and a world-class bodybuilder. He’s a strong
+              believer in what doesn’t challenge you, won’t change you. Thus,
+              you should expect to be challenged if you work with him. Siim
+              has extensive experience, from working with people with special
+              needs to training elite athletes from freestyle skiing to
+              bodybuilding and bikini fitness. His speciality is physical
+              conditioning along with strength and hypertrophy programs.
+            </p>
+            <a class="trainer_btn trainer_btn_wh trainer_btn_clr" href="./index.html">Choose this trainer</a>
+          </div>
+        </div>
+        <!-- Trainer 2 -->
+        <div class="trainer_list_row">
+          <div class="list_row_col1">
+            <div class="trainer_img_container">
+              <img class="trainer_img"
+                src="https://www.gymwolf.com/user_images/a0e65be4dba72b3d37d0e490a8173d73_1596110163.jpg" alt="" />
+            </div>
+          </div>
+          <div class="list_row_col2">
+            <h3>Siim Savisaar</h3>
+            <p class="trainer_text">
+              Taavi on lõpetanud Tartu Ülikooli sporditeaduste ja
+              füsioteraapia instituudi. Tema spetsialiteet on raskejõustik,
+              rahvasport ja personaaltreeningud. Enesetäiendamist ei ole ta
+              lõpetanud - täiendab ennast pidevalt tänapäevaste uuringutega,
+              et hoida oma meetodid võimalikult teaduspõhised. Lisaks teiste
+              treenimisele treenib ta ka iseennast ja on väga edukas kulturist
+              Eestis. Mitmeid kordi on saavutanud medalikohti Eesti
+              sisevõistlustel ja ka välisvõistlustel. Taavi treenitavate käes
+              on üle 20 Eesti rekordi jõutõstmises. Lisaks rekorditele on tema
+              õpilased toonud Eestile 5 medalit Euroopa Meistrivõistlustelt.
+            </p>
+            <a class="trainer_btn trainer_btn_wh trainer_btn_clr" href="#sigup_and_login">Choose this trainer</a>
+          </div>
+        </div>
+      </div>
+
+      <div id="trainer_steps">
+        <h2>How does it work?</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td class="trainer_steps_num">1</td>
+              <td class="trainer_steps_text">
+                Sign up to <span class="trainer_steps_gymwolf">Gymwolf</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="trainer_steps_num">2</td>
+              <td class="trainer_steps_text">
+                Choose the personal trainer that fits you the best and make
+                the purchase.
+              </td>
+            </tr>
+            <tr>
+              <td class="trainer_steps_num">3</td>
+              <td class="trainer_steps_text">
+                After the purchase your personal trainer will contact you
+                through <span class="trainer_steps_gymwolf">Gymwolf</span> .
+                Describe your goals and your trainer will then make you a
+                customized workout plan.
+              </td>
+            </tr>
+            <tr>
+              <td class="trainer_steps_num">4</td>
+              <td class="trainer_steps_text">
+                Achieve your goals by following the workout plan and tracking
+                workouts in
+                <span class="trainer_steps_gymwolf">Gymwolf</span> . Personal
+                trainer will keep an eye on your workouts, also giving
+                feedback and motivation.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- pricing -->
+    <div class="text_center">
+      <div class="trainer_pricing">
+        <div class="trainer_container">
+          <h2>Pricing</h2>
+        </div>
+        <div class="trainer_price_cards">
+          <div class="trainer_container">
+            <p class="trainer_text">
+              Choose your trainer, complete the purchase and they will help
+              you achieve your fitness goals!
+            </p>
+            <div class="trainer_price_row">
+              <div class="trainer_price_col col1">
+                <div class="trainer_card_layout">
+                  <div class="trainer_card_top">
+                    <div class="trainer_card_type type1">
+                      <span>BRONZE</span>
+                    </div>
+                    <div class="trainer_card_price">
+                      <span class="price">
+                        <span class="sign">USD</span>
+                        <span class="currency">45</span>
+                        <span class="month">/1 month</span>
+                        <p class="you_save">&nbsp;</p>
+                      </span>
+                    </div>
+                  </div>
+                  <!-- mid -->
+                  <div class="trainer_card_mid">
+                    <ul>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Personal</span> Workout Plan
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Weekly</span> progress reviews
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Char</span> with your trainer
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Gymwolf Pro</span> features
+                      </li>
+                      <li>
+
+                        <span>&nbsp;</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- bottom -->
+                  <div class="trainer_card_bottom">
+                    <a class="go_to_trainers1" href="#trainer_list">Get your trainer</a>
+                  </div>
+                  <p class="trainer_monthly_price">
+                    Only 45 USD per month</p>
+                </div>
+              </div>
+              <div class="trainer_price_col col2">
+                <div class="trainer_card_layout">
+                  <!-- top -->
+                  <div class="trainer_card_top">
+                    <div class="trainer_card_type type2">
+                      <span>GOLD</span>
+                    </div>
+                    <div class="trainer_card_price">
+                      <span class="price">
+                        <span class="sign">USD </span>
+                        <span class="currency">115</span>
+                        <span class="month">/3 months</span>
+                        <p class="you_save">You save 20 USD</p>
+                      </span>
+                    </div>
+                  </div>
+                  <!-- mid -->
+                  <div class="trainer_card_mid">
+                    <ul>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Personal</span> Workout Plan
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Montly</span> workout plan updates
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Weekly</span> progress reviews
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Chat</span> with your trainer
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Gymwolf Pro</span> features
+                      </li>
+                    </ul>
+                  </div>
+
+                  <!-- bottom -->
+                  <div class="trainer_card_bottom">
+                    <a class="go_to_trainers2" href="#trainer_list">Get your trainer</a>
+                  </div>
+                  <p class="trainer_monthly_price">
+                    Only 45 USD per month</p>
+                </div>
+              </div>
+              <div class="trainer_price_col col3">
+                <div class="trainer_card_layout">
+                  <div class="trainer_card_top">
+                    <div class="trainer_card_type type3">
+                      <span>PLATINUM</span>
+                    </div>
+                    <div class="trainer_card_price">
+                      <span class="price">
+                        <span class="sign">USD </span>
+                        <span class="currency">216</span>
+                        <span class="month">/6 months</span>
+                        <p class="you_save">You save 54 USD</p>
+                      </span>
+                    </div>
+                  </div>
+
+                  <!-- mid -->
+                  <div class="trainer_card_mid">
+                    <ul>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Personal</span> Workout Plan
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Montly</span> workout plan updates
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Weekly</span> progress reviews
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Char</span> with your trainer
+                      </li>
+                      <li>
+                        <i class="fa fa-check" aria-hidden="true"></i>
+                        <span>Gymwolf Pro</span> features
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- bottom -->
+                  <div class="trainer_card_bottom">
+                    <a class="go_to_trainers3" href="#trainer_list">Get your trainer</a>
+                  </div>
+                  <p class="trainer_monthly_price">
+                    Only 45 USD per month</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- bottom  -->
+  <div class="trainer_mail text_center">
+    <img height="100" src="https://www.gymwolf.com/img/trainer/become_trainer.svg" alt="" />
+    <h3>Become a personal trainer</h3>
+    <p class="trainer_text">
+      If you are a qualified bodybuilding and fitness trainer, and want to
+      join the Gymwolf team, let us know!
+    </p>
+    <a class="trainer_btn trainer_btn_wh"
+      href="mailto:betti@gymwolf.com?Subject=Become%20a%20personal%20trainer%20in%20Gymwolf">Become a personal
+      trainer</a>
+  </div>
+  </div>
+  <footer>
+    <div class="footerv">
+
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
+
+<script src="./scripts/sign_register.js" type="module">
+
+</script>
