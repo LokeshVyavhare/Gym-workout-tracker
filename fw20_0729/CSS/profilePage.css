@@ -78,6 +78,16 @@ button:hover{
     background: #30b065;
     border-color: #207744;
 }
+.save{
+    padding: 8px 10px;
+}
+.save-button{
+    padding: 10px;
+    background-color:rgb(238, 238, 238);
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid rgb(208, 200, 200);
+}
 /* form{
     border: 1px solid red;
     /* display: grid; */
@@ -140,4 +150,33 @@ select[name="birth-data"]{
 }
 .display{
     display: block;
+}
+
+.span{
+    background-color:rgb(238, 238, 238);
+    margin-right: -6px;
+    z-index: 1;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    padding: 8px;
+}
+.url-input{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.profile-url{
+    margin-top: 10px;
+    
+}
+#url-box{
+    margin-bottom: 50px;
+    margin: auto;
+    width: 90%;
+}
+#url-box>h4{
+    font-weight: normal;
+}
+.url-box_div{
+    margin-left: 150px;
+    margin-top: 20px;
 }
