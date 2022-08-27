@@ -23,13 +23,13 @@
     <section>
         <div id="body-container">
             <div class="upper-body">
-                <div id="general">General</div>
-                <div id="Body_measurements">Body measurements</div>
-                <div>Privacy</>
+                <div class="upper-body-data" id="general">General</div>
+                <div class="upper-body-data" id="Body_measurements">Body measurements</div>
+                <div class="upper-body-data" id="privacy">Privacy</>
                 </div>
             </div>
             <div id="general-container">
-                <div id="general">
+                <div id="general-name">
                     <h2>General</h2>
                     <p>Delete profile</p>
                 </div>
@@ -108,12 +108,6 @@
                         </div>
 
 
-                        <div class="save-button ">
-                            <button type="submit" class="save">Save</button>
-                        </div>
-                    </form>
-
-
                 </div>
 
             </div>
@@ -121,21 +115,28 @@
             <div class="not-display" id="Body_measurements-container">
                 <h3>Body measurements</h3>
                 <div class="height-input">
-                    <label for="height">Height</label>
-                    <input type="number" id="height">
-                    <input type="number" id="height">
+                    <label for="height1 height2">Height:</label>
+                    <input class="input-box BM-input BM-height" type="number" id="height1"><span
+                        class="input-box units">m</span>
+                    <input class="input-box BM-input BM-height" type="number" id="height2"><span
+                        class="input-box units">cm</span>
                 </div><br>
-                <label for="height">Waist</label>
-                <input type="number" id="height">
+                <label for="Waist">Waist:</label>
+                <input class="input-box BM-input" type="number" id="Waist"><span class="input-box units">cm</span>
                 <br>
-                <label for="height">Hips</label>
-                <input type="number" id="height">
+                <label for="Hips">Hips:</label>
+                <input class="input-box BM-input" type="number" id="Hips"><span class="input-box units">cm</span>
                 <br>
-                <label for="height">Neck</label>
-                <input type="number" id="height">
+                <label for="Neck">Neck:</label>
+                <input class="input-box BM-input" type="number" id="Neck"><span class="input-box units">cm</span>
                 <br>
             </div>
+            <div class="save-button ">
+                <button type="submit" class="save">Save</button>
+            </div>
         </div>
+
+        </form>
         </div>
         <div id="profile">
             <div class="profile-image">
@@ -161,20 +162,20 @@
 
 </html>
 
-<script src="./Scripts/profiePage.js"></script>
+<script src="./scripts/profiePage.js"></script>
 
 <script type="module">
     let footer1 = document.querySelector(".footerv")
-    import { navbar, footer } from "../fw20_1110/components/navbar&footer.js"
+    import { navbar, footer } from "./scripts/Export_navbar&footerA.js"
 
     footer1.innerHTML = footer()
 
 </script>
 
 <!-- <script type="module">
-    let navbar1= document.querySelector("#container")
+    let navbar1 = document.querySelector("#container")
     import navbar from "../Umer_Ahmad_fw20_0026/JS/nav.js"
-    navbar1.innerHTML=navbar()
+    navbar1.innerHTML = navbar()
 </script> -->
 <script src="./Scripts/profilePage2.js"></script>
-<script type="module" src="./script/ram.js"></script>
+<script type="module" src="./scripts/ram.js"></script>

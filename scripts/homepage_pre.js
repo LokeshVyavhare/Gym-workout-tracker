@@ -1,4 +1,5 @@
 import { navbar, footer } from './Export_navbar&footerA.js';
+import { popA, popQ } from './pop.js'
 import checkPass from './passCheck.js';
 
 // document.getElementById("navbar").innerHTML = navbar()
@@ -74,6 +75,10 @@ document.getElementById('register').addEventListener('click', (event) => {
     regi_dis();
     action_status = norm;
 });
+document.getElementById('startfree').addEventListener('click', (event) => {
+    regi_dis();
+    action_status = norm;
+});
 document.getElementById('login').addEventListener('click', (event) => {
 
     signin_dis();
@@ -95,14 +100,22 @@ document.getElementById('login1').addEventListener('click', (event) => {
     action_status = norm;
 });
 
-// signup/signin functionality
+// signup/signin functionality:
+let users = JSON.parse(localStorage.getItem('users'));
 
 document.querySelector('#regi_button').addEventListener('click', (event) => {
 
     let email = document.querySelector('#divinput input').value;
-    localStorage.setItem('signup_email', JSON.stringify(email));
-    document.querySelector('#divinput input').value = '';
-    window.location.href = "../fw20_0729/profilePage.html";
+    if (email == '' || !email.includes('@')) {
+        popA('Please enter correct email!')
+    } else if (!email_check(email)) {
+        popA('Email is already registerd')
+    } else {
+        localStorage.setItem('signup_email', JSON.stringify(email));
+        document.querySelector('#divinput input').value = '';
+        window.location.href = "./profilePage.html";
+    }
+
 })
 
 document.querySelector('#signin_form form').addEventListener('submit', (event) => {
@@ -135,4 +148,14 @@ document.getElementById('menubtn').addEventListener('click', (event) => {
 });
 
 // passemail check
-checkPass('signin_pass', 'instuctions_pass', 'signIn_bt')
+checkPass('signin_pass', 'instuctions_pass', 'signIn_bt');
+
+function email_check(e) {
+    for (let i in users) {
+        if (i.email == e) {
+            return false
+        }
+    }
+    return true;
+}
+
