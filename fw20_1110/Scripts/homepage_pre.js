@@ -1,4 +1,5 @@
 import { navbar, footer } from '../components/navbar&footer.js'
+import checkPass from '../../fw20_0254/passCheck.js/passCheck.js'
 
 // document.getElementById("navbar").innerHTML = navbar()
 document.querySelector(".footerv").innerHTML = footer()
@@ -70,11 +71,25 @@ document.querySelector('#logo').addEventListener('click', (event) => {
     norm_dis();
 });
 document.getElementById('register').addEventListener('click', (event) => {
-
     regi_dis();
     action_status = norm;
 });
 document.getElementById('login').addEventListener('click', (event) => {
+
+    signin_dis();
+    action_status = norm;
+});
+document.querySelector('#logo2').addEventListener('click', (event) => {
+    action_status = norm;
+    localStorage.setItem('action_status', JSON.stringify(action_status));
+    norm_dis();
+});
+document.getElementById('register1').addEventListener('click', (event) => {
+
+    regi_dis();
+    action_status = norm;
+});
+document.getElementById('login1').addEventListener('click', (event) => {
 
     signin_dis();
     action_status = norm;
@@ -102,4 +117,22 @@ document.getElementById('cancel_signin').addEventListener('click', () => {
     action_status = norm;
     localStorage.setItem('action_status', JSON.stringify(action_status));
     norm_dis();
-})
+});
+
+let bool_menu_bu = false;
+document.getElementById('menubtn').addEventListener('click', (event) => {
+    bool_menu_bu = !bool_menu_bu;
+    if (bool_menu_bu) {
+        document.getElementById('menubtn').innerHTML = '<b>X</b>'
+        document.getElementById('extra_nav').classList.remove('notdisplay');
+        document.getElementById('extra_nav').classList.add('display');
+    } else {
+
+        document.getElementById('menubtn').innerHTML = '&#8803;'
+        document.getElementById('extra_nav').classList.add('notdisplay');
+        document.getElementById('extra_nav').classList.remove('display');
+    }
+});
+
+// passemail check
+checkPass('signin_pass', 'instuctions_pass', 'signIn_bt')

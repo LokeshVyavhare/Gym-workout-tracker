@@ -62,10 +62,16 @@ nav {
     display: none;
 }
 
+#divinput {
+    margin-top: 25px;
+}
+
 #divinput input {
-    width: 250px;
-    height: 50px;
-    border-radius: 5px solid #fff;
+    width: 25%;
+    padding: 14px;
+    border-radius: 7px;
+    font-size: 18px;
+    border: 1px solid rgb(207, 207, 207);
 }
 
 #videosection {
@@ -90,7 +96,7 @@ nav ul li a {
 .content {
     text-align: center;
     margin-top: 270px;
-    
+
 }
 
 .content h1 {
@@ -103,9 +109,28 @@ nav ul li a {
 
     padding: 14px 70px;
     margin-top: 20px;
-    background-color: #428bca;
+
     border-radius: 10px;
     border: #428bca;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#regi_button {
+    width: 150px;
+    padding: 15px 7px;
+    background-color: #26a9e1;
+
+
+}
+
+#startfree {
+    background-color: #26a9e1;
+}
+
+.facebbok {
+    width: fit-content;
+    background-color: #3b5998;
 }
 
 .content a {
@@ -139,7 +164,7 @@ nav ul li a {
         width: auto;
         height: 100%;
     }
-} 
+}
 
 #extender {
     display: block;
@@ -383,7 +408,7 @@ p {
     z-index: 10;
     margin: auto;
     text-align: center;
-    padding: 50px;
+    padding: 30px;
     padding-top: 30px;
     box-sizing: border-box;
     position: fixed;
@@ -427,6 +452,16 @@ p {
 
 }
 
+#faxebbok2 {
+    width: 100%;
+    padding: 14px 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: #428bca;
+    color: #ffffff;
+    font-size: 18px;
+}
+
 #cancel_signin>span {
     border: 0.1px solid rgb(230, 230, 230);
     padding: 1px 5px;
@@ -434,6 +469,21 @@ p {
 
 #signin_form p {
     font-size: 11px;
+}
+
+#signIn_bt {
+    width: fit-content;
+    background-color: #26a9e1;
+    border: none;
+    padding: 10px 45px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 9px;
+}
+
+#signIn_bt:disabled {
+    background-color: rgb(182, 180, 180);
 }
 
 #signin_form>#signin_header {
@@ -457,6 +507,200 @@ p {
 .underline {
     text-decoration: underline;
 }
-#menubtn{
-display: none;
+
+@media screen and (min-width:200px) and (max-width:768px) {
+    .content {
+        width: 100%;
+        padding: 0;
+        margin-top: 180px;
+    }
+
+    .content h1 {
+        font-size: 33px;
+        line-height: 50px;
+    }
+
+    #divinput input {
+        width: 90%;
+    }
+
+    #regi_button {
+        width: 100px;
+    }
+
+    .landing {
+        background-image: url("https://www.gymwolf.com/img/header-bg.jpg");
+        padding: 20px;
+
+    }
+
+    .lead {
+        display: block;
+    }
+
+    div.play {
+        display: block;
+    }
+
+    .playp {
+        color: #ffffff;
+    }
+
+    #startfree {
+        display: none;
+    }
+
+    .video {
+        display: none;
+    }
+
+    .mid-section h1 {
+        margin-top: 50px;
+        margin-bottom: 18px;
+        font-size: 28px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+
+    }
+
+    .mid-section p {
+        margin-bottom: 24px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .mid-section button {
+        color: #ffffff;
+        background-color: #041628;
+        border-color: #041628;
+        width: 350px;
+        margin-left: 90px;
+    }
+
+    .mid-section-part-1 h1 {
+        margin-top: 50px;
+        margin-bottom: 18px;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .mid-section-2 img {
+        display: none;
+
+
+    }
+
+    .mid-section-2 {
+        padding-top: 0px;
+    }
+
+    .mid-section-2 {
+        width: 100%;
+        /* border: 1px solid green; */
+        padding-bottom: 0;
+        /* display: none; */
+    }
+
+    .mid-section-part-1 p {
+        margin-bottom: 24px;
+        font-size: 16px;
+        width: 100%;
+        /* padding: 0; */
+    }
+
+    .mid-section-part-1 {
+        width: 550px;
+        /* border: 1px solid red; */
+        text-align: center;
+        padding: 0;
+        width: 105%;
+        text-align: center;
+        margin: auto;
+        margin-right: 50px;
+    }
+
+    .mid-section-part-1 button {
+        width: 350px;
+        margin-left: 30px;
+
+    }
+
+    .mid-section-part-2 button {
+        width: 350px;
+        margin-right: 30px;
+
+
+    }
+
+    .mid-section-part-2 {
+        padding: 0;
+    }
+
+    .mid-section-part-2 p {
+        margin-bottom: 24px;
+        font-size: 16px;
+        width: 100%;
+
+    }
+
+    .mid-section-part-2 h1 {
+        margin-top: 50px;
+        margin-bottom: 18px;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+
+    .mid-section-part-2 {
+        width: 550px;
+        /* border: 1px solid red; */
+        text-align: center;
+        padding: 0;
+        width: 105%;
+        text-align: center;
+        margin: auto;
+        margin-right: 50px;
+        gap: 0;
+
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    .footer-lifted {
+        padding-top: 56px;
+        padding-bottom: 50px;
+        background-color: #e6e7ea;
+        text-align: center;
+    }
+
+    .container div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 10px;
+        /* border: 1px solid red; */
+    }
+
+    .copyright {
+        font-size: 12px;
+    }
+}
+
+.color_RED {
+    color: red;
+    text-align: left;
+}
+
+.color_GREEN {
+    color: rgb(2, 255, 2);
+    text-align: left;
 }

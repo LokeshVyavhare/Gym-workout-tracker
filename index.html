@@ -22,28 +22,33 @@
     </div>
 
     <!--**************** NavBar Section      ******************** -->
-    <div id="navbar">
+    <div>
+      <div id="navbar">
         <nav>
-            <img src="https://www.gymwolf.com/img/gymwolf.png" id='logo' class="logo" />
-            <img src="https://www.gymwolf.com/img/gymwolf-small.png" alt="" id="logo2" class="logo" >
-        
-            <ul>
-              <li id="register"><a href="#">Register</a></li>
-              <li id="login"><a href="#">Sign In</a></li>
-              <li><a href=""><img src="https://img.icons8.com/ios/344/search--v1.png" id='srch_lv'></a></li>
-              <li id="menubtn">&#8803; <div id="smallscr">
-             
-                <p id="register1"><a href="#">Register</a></p>
-                <p id="login1"><a href="#">Sign In</a></p>
-              
-            
-          </div></li>
+          <img src="https://www.gymwolf.com/img/gymwolf.png" id='logo' class="logo" />
+          <img src="https://www.gymwolf.com/img/gymwolf-small.png" alt="" id="logo2" class="logo">
 
-            </ul>
-            
-          </nav>
-          
-         
+          <ul>
+            <li id="register"><a href="#">Register</a></li>
+            <li id="login"><a href="#">Sign In</a></li>
+            <li><a href=""><img src="https://img.icons8.com/ios/344/search--v1.png" id='srch_lv'></a></li>
+            <li id="menubtn">&#8803; <div id="smallscr">
+
+
+              </div>
+            </li>
+
+          </ul>
+
+        </nav>
+        <div id="extra_nav" class="notdisplay">
+          <p id="register1"><a>Register</a></p>
+          <p id="login1"><a>Sign In</a></p>
+        </div>
+      </div>
+
+
+
 
     </div>
     <!-- ******* Heading-1 ******************** -->
@@ -53,36 +58,24 @@
         <button id="startfree"><a href="">Start Free</a></button>
       </div>
       <div class="play">
-        <p class="playp" >Get the app</p>
+        <p class="playp">Get the app</p>
         <p>
-          <a
-            href="https://play.google.com/store/apps/details?id=com.mooncascade.gymwolf"
-            title="Android App"
-          >
-            <img
-              src="https://www.gymwolf.com/img/footer/android-button.png"
-              alt="Android App"
-              width="134"
-            />
+          <a href="https://play.google.com/store/apps/details?id=com.mooncascade.gymwolf" title="Android App">
+            <img src="https://www.gymwolf.com/img/footer/android-button.png" alt="Android App" width="134" />
           </a>
         </p>
         <p>
-          <a
-            href="https://www.gymwolf.com/img/footer/ios-button.png"
-            title="iPhone App"
-          >
-            <img
-              src="https://www.gymwolf.com/img/footer/ios-button.png"
-              alt="iPhone App"
-              width="134"
-            />
+          <a href="https://www.gymwolf.com/img/footer/ios-button.png" title="iPhone App">
+            <img src="https://www.gymwolf.com/img/footer/ios-button.png" alt="iPhone App" width="134" />
           </a>
         </p>
       </div>
       <div id="divinput" class="notdisplay">
-        <input type="email" placeholder="Entre your Email">
-        <button id="regi_button">Register</button><br>
-        <button>| Sign In with Facebook</button>
+        <div><input type="email" placeholder="Entre your Email">
+          <button id="regi_button">Register</button>
+        </div>
+        <button class="facebbok"><b style="font-size: 20px; font-family:verdana">f</b> | Sign In with
+          Facebook</button>
       </div>
 
       <div>
@@ -102,7 +95,7 @@
       workout plans depending on your goals. Our trainers track your progress,
       coach and motivate you daily through our web and smartphone app.
     </p>
-    <button><a href="">Learn more</a></button>
+    <button><a href="./fw20_0444/trainer.html">Learn more</a></button>
   </div>
 
   <!-- *************** -Mid-Section--2************ -->
@@ -179,10 +172,10 @@
     <button id="cancel_signin"><span>X</span></button>
     <p id="signin_header">Sign In</p>
     <form>
-      <input type="email" placeholder="E-mail" id="signin_email">
+      <input type="email" required placeholder="E-mail" id="signin_email">
       <p id="instuctions_email" class="notdisplay">Ex</p>
-      <input type="password" placeholder="Password" id="signin_pass">
-      <p id="instuctions_email" class="notdisplay">Ex</p>
+      <input type="password" required placeholder="Password" id="signin_pass">
+      <p id="instuctions_pass"></p>
 
       <div id="frgt_pass">
         <p class="col-blue underline">Forgot Password</p>
@@ -192,7 +185,7 @@
 
       <p class="col-grey">-Or-</p>
 
-      <button><b style="font-size: 18px">f</b> |Sign In With Facebook</button>
+      <button id="faxebbok2" class="facebbok"><b style="font-size: 22px">f </b> |Sign In With Facebook</button>
 
       <p>Not a Gymwolf user?
         <span class="col-blue" onclick="register">Register</apan>
