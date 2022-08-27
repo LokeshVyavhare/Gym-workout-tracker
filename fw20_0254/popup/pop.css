@@ -1,0 +1,50 @@
+#pop_up_alert_msg {
+    width: fit-content;
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px grey;
+    padding: 10px 25px;
+    position: fixed;
+    z-index: 100;
+    top: 100px;
+    animation: slide-in-top 1s ease 1 normal forwards;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pop_up_ask_msg {
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0 0 10px 3px grey;
+    padding: 35px;
+    position: fixed;
+    z-index: 100;
+    top: 100px;
+    animation: slide-in-top 1s ease 1 normal forwards;
+    left: 30%;
+    right: 30%;
+    transform: translate(-50%, -50%);
+}
+
+#blk_scrn {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.432);
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+@keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+}
