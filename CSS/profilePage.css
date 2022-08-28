@@ -26,7 +26,7 @@ body {
     text-decoration: none;
     font-family: Open Sans, sans-serif;
     cursor: pointer;
-    border-top-left-radius: 5px;
+    border-top-left-radius: 3px;
     border-top-right-radius: 3px;
     padding: 8px 12px;
 }
@@ -262,7 +262,7 @@ select[name="birth-data"]{
 
 #privacy-data{
     font-size: 14px;
-
+    user-select: none;
 }
 
 .email-notification-div > label, .private_public {
@@ -278,4 +278,37 @@ select[name="birth-data"]{
     color: #428bca;
     text-decoration: underline;
     
+}
+
+#data-updated{
+
+    padding: 17px 12px;
+    color:rgb(60, 118, 61);
+    background-color:rgb(223, 240, 216);
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgb(199, 242, 182);
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-bottom: -10px;
+    font-size: 14px;
+    text-decoration:none solid rgb(60, 118, 61);
+    letter-spacing: .7px;
+    
+}
+
+.data-upd-btn{
+    color: rgba(128, 128, 128, 0.522);
+    background-color:transparent;
+    width: 20%;
+    justify-self:end;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    border: none
+}
+.data-upd-btn:hover{
+    color: rgba(128, 128, 128);
+    background-color:transparent;
+    border: none;
 }

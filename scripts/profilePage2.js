@@ -18,6 +18,10 @@ function BMfunc() {
     BM.classList.remove("not-display")
     BM.classList.add("display")
 
+    let privacy = document.getElementById("privacy-data")
+    privacy.classList.remove("display")
+    privacy.classList.add("not-display")
+
 }
 let general = document.querySelector("#general").addEventListener("click", function () {
     generalfunc()
@@ -34,6 +38,10 @@ function generalfunc() {
     let BM = document.getElementById("Body_measurements-container")
     BM.classList.remove("display")
     BM.classList.add("not-display")
+
+    let privacy = document.getElementById("privacy-data")
+    privacy.classList.remove("display")
+    privacy.classList.add("not-display")
 
 }
 
@@ -67,10 +75,11 @@ document.getElementById("email-id").innerText = userData
 
 let users = JSON.parse(localStorage.getItem("users")) || []
 
+let data_updated=document.getElementById("data-updated")
 // adding event listener
 let form = document.querySelector("form")
     .addEventListener("submit", (event) => {
-        // event.preventDefault();
+        event.preventDefault();
         addData(users)
     })
 // above function
@@ -87,9 +96,18 @@ function addData(users) {
             "conf_password": conf_password
 
         }
+        if (password === conf_password) {
+            users[i]["password"] = password;
+            users[i]["conf_password"] = conf_password;
+            localStorage.setItem("users", JSON.stringify(users))
 
-        users.push(obj)
-        localStorage.setItem("users", JSON.stringify(users))
+            data_updated.classList.add("display")
+            data_updated.classList.remove("not-display")
+
+        }
+        else {
+            alert("password is incorrect")
+        }
     } else {
         users.forEach((ele, i) => {
 
@@ -100,6 +118,8 @@ function addData(users) {
                 "conf_password": conf_password
 
             }
+            data_updated.classList.add("display")
+            data_updated.classList.remove("not-display")
 
             if (userData == ele.email && name !== "") {
                 users[i]["name"] = name
@@ -159,3 +179,7 @@ function publicfunc() {
 }
 
 
+function data_updtFunc(){
+    private.classList.remove("display")
+    private.classList.add("not-display")
+}
