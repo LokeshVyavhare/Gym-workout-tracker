@@ -28,7 +28,10 @@ function displayUser() {
     }
 }
 
-
+let editProfile = document.querySelector('.menu_edit');
+editProfile.addEventListener("click",function(){
+    window.location.href = "./profilePage.html"
+})
 
 let logoutBtn = document.querySelector('.menu_logout');
 logoutBtn.addEventListener("click",function(){
