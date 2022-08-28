@@ -23,9 +23,9 @@
     <section>
         <div id="body-container">
             <div class="upper-body">
-                <div class="upper-body-data" id="general">General</div>
-                <div class="upper-body-data" id="Body_measurements">Body measurements</div>
-                <div class="upper-body-data" id="privacy">Privacy</>
+                <div class="upper-body-data focus" id="general" tabindex="1">General</div>
+                <div class="upper-body-data" id="Body_measurements" tabindex="1">Body measurements</div>
+                <div class="upper-body-data" id="privacy" tabindex="1">Privacy</>
                 </div>
             </div>
             <div id="general-container">
@@ -92,7 +92,7 @@
                         <div class="form-group">
                             <label for="user-description" class="col-sm-3 control-label">Your description for profile
                                 page:</label>
-                            <textarea id="user-description" name="user-description" class="form-control" rows="2"
+                            <textarea id="user-description" name="user-description" class="input-box" rows="2"
                                 style="resize: vertical;"></textarea>
                         </div><br>
 
@@ -102,7 +102,7 @@
                                 <p>You can choose a personal URL for your profile page:</p>
                                 <div class="profile-url">
                                     <span class="input-box span">www.gymwolf.com/</span>
-                                    <input class="input-box url-input" type="text" name="username" value="#">
+                                    <input class="input-box url-input" type="text" name="username" value="">
                                 </div>
                             </div>
                         </div>
@@ -113,7 +113,7 @@
             </div>
 
             <div class="not-display" id="Body_measurements-container">
-                <h3>Body measurements</h3>
+                <h2>Body measurements</h2>
                 <div class="height-input">
                     <label for="height1 height2">Height:</label>
                     <input class="input-box BM-input BM-height" type="number" id="height1"><span
@@ -131,6 +131,33 @@
                 <input class="input-box BM-input" type="number" id="Neck"><span class="input-box units">cm</span>
                 <br>
             </div>
+
+            <div class="not-display" id="privacy-data">
+                <div class="privacy_name_image">
+                    <img src="https://www.gymwolf.com/images/lock.png" alt="lock">
+                    <h2>Privacy</h2>
+                </div>
+                <div class="private_public not-display private">
+                    <b>Your profile is private</b><br>
+                    <p><span class="isPrivate">Make your workouts public</span>,	
+                        so others can see them</p>
+                </div>
+                <div class="private_public public" >
+							
+                    <b>Your profile is public</b><br>
+                    <p><span class="isPublic">Make your workouts private</span>,	
+                        so only you can see them</p>
+                    
+                </div>
+                <div class="email-notification-div">
+                    <label for="email_notifications" class="checkbox">
+                        <input id="email_notifications" type="checkbox" name="email_notifications" checked="checked" value="1"> 
+                        Send e-mail notifications when receiving new messages.
+                    </label>						
+                </div>
+                
+            </div>
+
             <div class="save-button ">
                 <button type="submit" class="save">Save</button>
             </div>
@@ -140,7 +167,7 @@
         </div>
         <div id="profile">
             <div class="profile-image">
-                <img src="https://www.gymwolf.com/user_images/d55e70fcc15948813f317773288f627c_.jpg">
+                <img src="https://www.gymwolf.com/user_images/342053a2e3e85a2e3ae15dd0b7d01d60_.jpg">
             </div>
 
             <button class="profile-pic-button">Change profile picture</button>

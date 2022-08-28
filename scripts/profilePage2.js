@@ -6,11 +6,15 @@ let BM = document.querySelector("#Body_measurements").addEventListener("click", 
 
 function BMfunc() {
     let general = document.getElementById("general-container")
+    
     general.classList.remove("display")
     general.classList.add("not-display")
-
+    
+    let upper_body_general=document.getElementById("general")
+    upper_body_general.classList.remove("focus")
+    
+    
     let BM = document.getElementById("Body_measurements-container")
-    console.log(BM);
     BM.classList.remove("not-display")
     BM.classList.add("display")
 
@@ -24,12 +28,37 @@ function generalfunc() {
     general.classList.remove("not-display")
     general.classList.add("display")
 
+    let upper_body_general=document.getElementById("general")
+    upper_body_general.classList.add("focus")
+
     let BM = document.getElementById("Body_measurements-container")
-    console.log(BM);
     BM.classList.remove("display")
     BM.classList.add("not-display")
 
 }
+
+let privacy = document.getElementById("privacy").addEventListener("click", function () {
+    privacyfunc()
+})
+function privacyfunc() {
+    let general = document.getElementById("general-container")
+    general.classList.remove("display")
+    general.classList.add("not-display")
+
+    let upper_body_general=document.getElementById("general")
+    upper_body_general.classList.remove("focus")
+
+    let BM = document.getElementById("Body_measurements-container")
+    BM.classList.remove("display")
+    BM.classList.add("not-display")
+
+    let privacy = document.getElementById("privacy-data")
+    privacy.classList.remove("not-display")
+    privacy.classList.add("display")
+
+}
+
+
 // BMfunc()
 
 // email data
@@ -71,11 +100,9 @@ function addData(users) {
                 "conf_password": conf_password
 
             }
-            console.log(obj);
 
             if (userData == ele.email && name !== "") {
                 users[i]["name"] = name
-                console.log(name)
                 localStorage.setItem("users", JSON.stringify(users))
 
             }
@@ -98,6 +125,36 @@ function addData(users) {
             }
         });
     }
+
+}
+
+// privacy division functionality
+
+let make_private = document.querySelector(".isPublic").addEventListener("click", function () {
+    privatefunc()
+})
+
+function privatefunc() {
+    let public = document.querySelector(".public")
+    public.classList.remove("display")
+    public.classList.add("not-display")
+    let private = document.querySelector(".private")
+    private.classList.remove("not-display")
+    private.classList.add("display")
+
+}
+
+let make_public = document.querySelector(".isPrivate").addEventListener("click", function () {
+    publicfunc()
+})
+
+function publicfunc() {
+    let private = document.querySelector(".private")
+    private.classList.remove("display")
+    private.classList.add("not-display")
+    let public = document.querySelector(".public")
+    public.classList.remove("not-display")
+    public.classList.add("display")
 
 }
 
