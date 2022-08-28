@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #box1 {
 
     width: 90%;
@@ -308,4 +313,24 @@
 
 .dropdown-content li{
     margin-left: -40px;
+}
+
+
+
+#exer_9cate_grid{
+    margin: 20px;
+    gap: 10px;
+}
+
+#list{
+    padding-left: 20px;
+}
+
+#button4 div{
+    padding: 5px;
+    margin-right: 5px;
+}
+
+#user{
+    padding: 10px;
 }
