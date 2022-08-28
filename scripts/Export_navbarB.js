@@ -1,7 +1,7 @@
 function navbar() {
     return ` <div id="container">
     <div id="left_nav">
-        <a href="#"><img src="https://www.gymwolf.com/img/gymwolf.png" alt=""></a>
+        <a href="./homepage_user.html"><img src="https://www.gymwolf.com/img/gymwolf.png" alt=""></a>
     </div>
     <div id="right_nav">
         <a href="">
