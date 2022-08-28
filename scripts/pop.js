@@ -1,5 +1,4 @@
 let blk_scr = () => {
-    console.log('black')
     let blk_scrn = document.createElement('div');
     blk_scrn.id = 'blk_scrn';
     document.querySelector('body').append(blk_scrn);
@@ -7,12 +6,17 @@ let blk_scr = () => {
 let hide_blk_scr = () => {
     document.getElementById('blk_scrn').remove();
 }
-let popA = async (text, loc) => {
+let popA = async (text, loc, bool) => {
 
 
     let popup = document.createElement('section');
     popup.id = 'pop_up_alert_msg';
     popup.innerText = text;
+    if (!bool) {
+        popup.classList.add('bord_rd')
+    } else {
+        popup.classList.add('bord_gr')
+    }
     document.querySelector('body').append(popup);
 
     document.getElementById('pop_up_alert_msg').classList.add('display');
@@ -25,6 +29,7 @@ let popA = async (text, loc) => {
             window.location.href = loc;
         }
     }, 3000);
+
 
 }
 let popQ = async (text, T, F) => {

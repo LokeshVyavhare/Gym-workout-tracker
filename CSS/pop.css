@@ -1,14 +1,25 @@
 #pop_up_alert_msg {
-    width: fit-content;
+    width: 300px;
     background-color: #fff;
     box-shadow: 0 0 10px 3px grey;
     padding: 20px 55px;
     position: fixed;
     z-index: 100;
+    display: block;
     top: 100px;
+    left: 50%;
+    text-align: center;
     animation: slide-in-top 00.2s 1 normal forwards;
-    left: 40%;
-    transform: translate(-50%, -50%);
+    margin-left: -150px;
+    /* transform: translate(-50%, -50%); */
+}
+
+.bord_gr {
+    border: 5px double rgb(0, 245, 0);
+}
+
+.bord_rd {
+    border: 5px double red;
 }
 
 #pop_up_ask_msg {
