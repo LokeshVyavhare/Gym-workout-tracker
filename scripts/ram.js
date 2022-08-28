@@ -32,9 +32,25 @@ function displayUser() {
 
 let logoutBtn = document.querySelector('.menu_logout');
 logoutBtn.addEventListener("click",function(){
-    //console.log("working")
     localStorage.setItem("login_status",JSON.stringify(false));
     localStorage.setItem("signup_email",JSON.stringify(null));
     window.location.href = "./index.html"
+})
+
+let submenu = document.querySelector(".dropdown");
+let dropdown = document.querySelector(".dropdown-content");
+
+submenu.addEventListener("click",function(){
+    
+    setTimeout(function(){
+        dropdown.style.display = "block";
+    },200)
+})
+
+document.addEventListener('click', function (event) {
+    let outClick = document.getElementById('logout_container').contains(event.target);
+    if (!outClick) {
+        dropdown.style.display = "none";
+    }
 })
 

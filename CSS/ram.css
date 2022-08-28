@@ -54,7 +54,13 @@
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     min-width: 160px;
     font-size: 14px;
+    position: absolute;
+    margin-top: 15px;
+    animation: slide-in-top 0.2s ease 1 normal forwards;
+    z-index: 3;
   }
+
+
 
   .dropdown-content li {
     
@@ -76,15 +82,29 @@
 
 
 
-  .dropdown:hover .dropdown-content{
+  /* .dropdown:hover .dropdown-content{
     
     display: block;
     position: absolute;
     margin-top: 15px;
 
-  }
+  } */
   .dropdown{
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
   }
+
+  @keyframes slide-in-top {
+    0% {
+        -webkit-transform: translateY(-1000px);
+        transform: translateY(-1000px);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        opacity: 1
+    }
+}
