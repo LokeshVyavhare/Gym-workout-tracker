@@ -305,3 +305,7 @@
 #footer {
     margin-top: 80px;
 }
+
+.dropdown-content li{
+    margin-left: -40px;
+}

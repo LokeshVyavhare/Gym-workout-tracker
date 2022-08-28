@@ -105,7 +105,7 @@ document.getElementById('login1').addEventListener('click', (event) => {
 });
 
 // signup/signin functionality:
-let users = JSON.parse(localStorage.getItem('users'));
+let users = JSON.parse(localStorage.getItem('users')) || [];
 
 document.querySelector('#regi_button').addEventListener('click', (event) => {
 
