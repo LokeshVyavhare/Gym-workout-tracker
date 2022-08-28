@@ -40,17 +40,32 @@ logoutBtn.addEventListener("click",function(){
 let submenu = document.querySelector(".dropdown");
 let dropdown = document.querySelector(".dropdown-content");
 
+
+function changePosition(){
+    let arrow = document.querySelector('.fa-caret-down');
+    arrow.style.transform = "rotate(180deg)"
+}
+
+function revertPosition(){
+    let arrow = document.querySelector('.fa-caret-down');
+    arrow.style.transform = "rotate(0deg)"
+}
+
 submenu.addEventListener("click",function(){
     
     setTimeout(function(){
+        changePosition()
         dropdown.style.display = "block";
+    
     },200)
 })
 
 document.addEventListener('click', function (event) {
     let outClick = document.getElementById('logout_container').contains(event.target);
     if (!outClick) {
+        revertPosition();
         dropdown.style.display = "none";
+    
     }
 })
 

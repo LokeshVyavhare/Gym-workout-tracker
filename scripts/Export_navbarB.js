@@ -20,9 +20,12 @@ function navbar() {
         <!-- Ram's change -->
         
         <a  class="dropdown" >
-        <p id="user_nameOremail">
-        </p> 
-    
+        <p style="display:inline-flex" id="profile_tab">
+            <i   class="fa fa-user" aria-hidden="true"></i>
+            <p style="display:inline" id="user_nameOremail">
+            </p> 
+            <i  class="fa fa-caret-down" aria-hidden="true">  </i>
+        </p>
             <div id="logout_container" class="dropdown-content">
                <ul>
                 <li class="menu_edit">Edit Profile</li>
