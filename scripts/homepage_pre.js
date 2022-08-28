@@ -190,7 +190,7 @@ document.querySelector('#signin_form form').addEventListener('submit', async (ev
     // console.log(log_in_email, log_in_pass)
     if (email_check(log_in_email)) {
         if (pass_check(log_in_email, log_in_pass)) {
-            popA('Successfully Logged In!!', './profilepage.html', true);
+            popA('Successfully Logged In!!', './homepage_user.html', true);
         } else {
             popA('Wrong password!', undefined, false);
         }
