@@ -1,19 +1,18 @@
 
-
 let BM = document.querySelector("#Body_measurements").addEventListener("click", function () {
     BMfunc()
 })
 
 function BMfunc() {
     let general = document.getElementById("general-container")
-    
+
     general.classList.remove("display")
     general.classList.add("not-display")
-    
-    let upper_body_general=document.getElementById("general")
+
+    let upper_body_general = document.getElementById("general")
     upper_body_general.classList.remove("focus")
-    
-    
+
+
     let BM = document.getElementById("Body_measurements-container")
     BM.classList.remove("not-display")
     BM.classList.add("display")
@@ -28,7 +27,7 @@ function generalfunc() {
     general.classList.remove("not-display")
     general.classList.add("display")
 
-    let upper_body_general=document.getElementById("general")
+    let upper_body_general = document.getElementById("general")
     upper_body_general.classList.add("focus")
 
     let BM = document.getElementById("Body_measurements-container")
@@ -45,7 +44,7 @@ function privacyfunc() {
     general.classList.remove("display")
     general.classList.add("not-display")
 
-    let upper_body_general=document.getElementById("general")
+    let upper_body_general = document.getElementById("general")
     upper_body_general.classList.remove("focus")
 
     let BM = document.getElementById("Body_measurements-container")
