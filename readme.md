@@ -6,9 +6,9 @@ import {NavB} from './<file>' will get new navbar.
 Css for this new navbar are temporary stored in exercise_detailed.css. We will replace that with current navbar css [a relative link](./detailed_exer.html) for the preview of new navbar
 please look 
 Lokesh working on:
-[a relative link](./scripts/exercise_detailed.js)
-[a relative link](./scripts/profiePage.js)
-[a relative link](./scripts/profilePage2.js)
+[exercise_detailed.js ](./scripts/exercise_detailed.js)
+[profiePage.js](./scripts/profiePage.js)
+[profilePage2.js](./scripts/profilePage2.js)
 
 
 
