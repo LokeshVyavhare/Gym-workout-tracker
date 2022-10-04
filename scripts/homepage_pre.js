@@ -148,7 +148,7 @@ document.getElementById('menubtn').addEventListener('click', (event) => {
 });
 
 // passemail check
-// checkPass('signin_pass', 'instuctions_pass', 'signIn_bt');
+checkPass('signin_pass', 'instuctions_pass', 'signIn_bt');
 
 // console.log(users);
 
