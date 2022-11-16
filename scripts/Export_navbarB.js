@@ -1,38 +1,3 @@
-export const NavB = () => {
-    return ` <!-- main nav -->
-    <nav>
-        <!-- logo -->
-        <div id="logo_c">
-            <a>
-                <img src="https://www.gymwolf.com/img/gymwolf.png" class="large_dis1">
-                <img src="https://www.gymwolf.com/img/gymwolf-small.png" class="small_dis1">
-            </a>
-        </div>
-
-        <!-- naviagation tabs -->
-        <div id="nav_tabsA" class="large_dis">
-            <div class="navtabA">Progress</div>
-            <div class="navtabA">Calculators</div>
-            <div class="navtabA">Exercise plans</div>
-            <div class="navtabA">My personal Trainer</div>
-            <div class="navtabA"><i class="fa fa-comments" aria-hidden="true"></i></div>
-            <div class="navtabA" id="prof_name">
-                <p>Profile Is Incomplete</p><span id="dropArrow"></span>
-            </div>
-            <div class="navtabA"><i class="fa fa-search" aria-hidden="true"></i></div>
-        </div>
-
-        <!-- responsive bar -->
-        <div id="nav_tabsB" class="small_dis">
-            <div class="navtabB"><i class="fa fa-plus filt-invert" aria-hidden="true"></i></div>
-            <div class="navtabB"><i class="fa fa-comments filt-invert" aria-hidden="true"></i></div>
-            <div class="navtabB"><i class="fa fa-search filt-invert" aria-hidden="true"></i></div>
-            <div class="navtabB"><i class="fa fa-cog filt-invert" aria-hidden="true"></i></div>
-            <div class="navtabB"><i class="fa fa-bars filt-invert" aria-hidden="true"></i></div>
-        </div>
-    </nav>`
-}
-
 function navbar() {
     return ` <div id="container">
     <div id="left_nav">

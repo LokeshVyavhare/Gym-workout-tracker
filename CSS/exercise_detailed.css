@@ -38,31 +38,15 @@ header nav>div>div {
     display: none;
 }
 
-.filt-invert:hover {
-    filter: invert(20%);
-    cursor: pointer;
-}
 
-@media screen and (min-width:10px) and (max-width:1115px) {
+@media screen and (min-width:100px) and (max-width:991px) {
     header {
         font-size: 15px;
     }
-
-    .large_dis1 {
-        display: none;
-    }
-
-    .small_dis1 {
-        display: block;
-    }
 }
 
-@media screen and (min-width:100px) and (max-width:865px) {
+@media screen and (min-width:100px) and (max-width:767px) {
     .large_dis {
         display: none;
-    }
-
-    .small_dis {
-        display: flex;
     }
 }
