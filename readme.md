@@ -48,7 +48,7 @@ This is a collaborative project to clone a health website [gymwolf.com](https://
 * Exercise category grid
 * Exerice lists
 * category exercise page
-* detailed exerice page
+* detailed exercise page
 
 ## Tech Stacks:
 * Advanced Javascript (ES6)
